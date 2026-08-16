@@ -5,8 +5,11 @@ Crypto Growth Screener
 بر اساس ترکیب چهار معیار: مومنتوم قیمتی، Breakout، RSI، MACD
 
 منابع داده:
-- CoinGecko API  -> لیست کوین‌ها و رتبه مارکت‌کپ (رایگان، بدون کلید)
-- Binance API    -> کندل‌های قیمتی برای محاسبه اندیکاتورها (رایگان، بدون کلید)
+- CoinGecko API  -> لیست کوین‌ها، رتبه مارکت‌کپ، و کندل‌های OHLC (رایگان، بدون کلید)
+
+توجه: در نسخه‌های قبلی از Binance API برای کندل استفاده می‌شد، اما چون سرورهای
+GitHub Actions معمولاً توسط Binance به‌خاطر محدودیت جغرافیایی مسدود می‌شوند،
+این نسخه به‌طور کامل از CoinGecko OHLC API استفاده می‌کند.
 
 خروجی: ارسال لیست رتبه‌بندی‌شده به تلگرام
 """
@@ -22,17 +25,17 @@ import numpy as np
 # ---------------------------------------------------------------------------
 MIN_MARKET_CAP_RANK = 50
 MAX_MARKET_CAP_RANK = 500
-KLINE_INTERVAL = "4h"          # تایم‌فریم کندل (مناسب افق میان‌مدت)
-KLINE_LIMIT = 100              # تعداد کندل برای تحلیل (~16 روز در تایم‌فریم 4h)
+OHLC_DAYS = 30                 # بازه کندل (30 روز -> کندل‌های ~4 ساعته توسط CoinGecko)
 TOP_N_RESULTS = 10             # چند تا کوین برتر در گزارش نهایی نشون داده بشه
 MIN_SCORE_TO_REPORT = 50       # حداقل امتیاز از 100 برای اینکه در لیست باشه
-REQUEST_DELAY = 0.3            # تاخیر بین درخواست‌ها به Binance (جلوگیری از rate limit)
+REQUEST_DELAY = 1.5            # تاخیر بین درخواست‌ها به CoinGecko (جلوگیری از rate limit)
+MAX_RETRIES = 3                # تعداد تلاش مجدد در صورت خطای 429 (rate limit)
 
 COINGECKO_BASE = "https://api.coingecko.com/api/v3"
-BINANCE_BASE = "https://api.binance.com/api/v3"
 
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+# .strip() برای جلوگیری از خطای احتمالی به‌خاطر فاصله/خط اضافه هنگام کپی توکن در گیت‌هاب
+TELEGRAM_BOT_TOKEN = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+TELEGRAM_CHAT_ID = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
 
 
 # ---------------------------------------------------------------------------
@@ -67,37 +70,40 @@ def get_market_universe():
 
 
 # ---------------------------------------------------------------------------
-# ۲) گرفتن کندل قیمتی از Binance
+# ۲) گرفتن کندل قیمتی (OHLC) از CoinGecko
 # ---------------------------------------------------------------------------
-def get_klines(binance_symbol):
+def get_ohlc(coin_id):
     """
-    کندل‌های قیمتی رو از Binance می‌گیره.
-    خروجی: DataFrame با ستون‌های open, high, low, close, volume
-    اگه جفت‌ارز روی Binance وجود نداشته باشه، None برمی‌گردونه.
+    کندل‌های OHLC رو از CoinGecko می‌گیره.
+    خروجی: DataFrame با ستون‌های high, low, close
+    اگه داده کافی نبود، None برمی‌گردونه.
     """
-    params = {
-        "symbol": binance_symbol,
-        "interval": KLINE_INTERVAL,
-        "limit": KLINE_LIMIT,
-    }
-    try:
-        resp = requests.get(f"{BINANCE_BASE}/klines", params=params, timeout=10)
-        if resp.status_code != 200:
-            return None
-        data = resp.json()
-        if not data or len(data) < 30:
-            return None
+    url = f"{COINGECKO_BASE}/coins/{coin_id}/ohlc"
+    params = {"vs_currency": "usd", "days": OHLC_DAYS}
 
-        df = pd.DataFrame(data, columns=[
-            "open_time", "open", "high", "low", "close", "volume",
-            "close_time", "quote_asset_volume", "num_trades",
-            "taker_buy_base", "taker_buy_quote", "ignore"
-        ])
-        for col in ["open", "high", "low", "close", "volume"]:
-            df[col] = df[col].astype(float)
-        return df
-    except requests.RequestException:
-        return None
+    for attempt in range(MAX_RETRIES):
+        try:
+            resp = requests.get(url, params=params, timeout=15)
+            if resp.status_code == 429:
+                # rate limit -> کمی صبر کن و دوباره امتحان کن
+                time.sleep(5 * (attempt + 1))
+                continue
+            if resp.status_code != 200:
+                return None
+
+            data = resp.json()
+            if not data or len(data) < 20:
+                return None
+
+            df = pd.DataFrame(data, columns=["timestamp", "open", "high", "low", "close"])
+            for col in ["open", "high", "low", "close"]:
+                df[col] = df[col].astype(float)
+            return df
+        except requests.RequestException:
+            time.sleep(2)
+            continue
+
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -132,44 +138,34 @@ def calculate_macd(closes, fast=12, slow=26, signal=9):
 
 def detect_momentum(df):
     """
-    مومنتوم قیمتی: تغییرات ۳ و ۷ کندل اخیر + همراهی حجم
+    مومنتوم قیمتی: تغییرات کندل‌های اخیر (کوتاه‌مدت و میان‌مدت)
+    توجه: چون CoinGecko OHLC رایگان داده حجم نمی‌ده، این نسخه فقط بر پایه قیمته.
     """
     closes = df["close"]
-    volumes = df["volume"]
 
     change_short = (closes.iloc[-1] / closes.iloc[-4] - 1) * 100 if len(closes) > 4 else 0
     change_long = (closes.iloc[-1] / closes.iloc[-8] - 1) * 100 if len(closes) > 8 else 0
 
-    avg_volume_prev = volumes.iloc[-15:-5].mean()
-    recent_volume = volumes.iloc[-5:].mean()
-    volume_increase = (recent_volume / avg_volume_prev) if avg_volume_prev > 0 else 1
-
     return {
         "change_short_pct": change_short,
         "change_long_pct": change_long,
-        "volume_increase_ratio": volume_increase,
     }
 
 
-def detect_breakout(df, lookback=30):
+def detect_breakout(df, lookback=20):
     """
-    تشخیص شکست مقاومت: آیا قیمت فعلی از سقف N کندل قبلی (به‌جز کندل آخر) عبور کرده،
-    و آیا حجم کندل شکست بالاتر از میانگین بوده.
+    تشخیص شکست مقاومت: آیا قیمت فعلی از سقف N کندل قبلی (به‌جز کندل آخر) عبور کرده.
     """
     if len(df) < lookback + 1:
         lookback = len(df) - 1
 
     recent_high = df["high"].iloc[-(lookback + 1):-1].max()
     current_close = df["close"].iloc[-1]
-    current_volume = df["volume"].iloc[-1]
-    avg_volume = df["volume"].iloc[-(lookback + 1):-1].mean()
 
     is_breakout = current_close > recent_high
-    volume_confirmed = current_volume > avg_volume * 1.3
 
     return {
         "is_breakout": is_breakout,
-        "volume_confirmed": volume_confirmed,
         "resistance_level": recent_high,
     }
 
@@ -188,28 +184,18 @@ def score_coin(df):
     score = 0
     reasons = []
 
-    # --- مومنتوم (30 امتیاز) ---
+    # --- مومنتوم قیمتی (35 امتیاز) ---
     if momentum["change_short_pct"] > 3 and momentum["change_long_pct"] > 5:
-        score += 15
+        score += 35
         reasons.append("مومنتوم صعودی پیوسته")
     elif momentum["change_short_pct"] > 0 and momentum["change_long_pct"] > 0:
-        score += 7
+        score += 18
         reasons.append("مومنتوم صعودی ضعیف")
 
-    if momentum["volume_increase_ratio"] > 1.5:
-        score += 15
-        reasons.append("افزایش قابل‌توجه حجم معاملات")
-    elif momentum["volume_increase_ratio"] > 1.1:
-        score += 7
-        reasons.append("افزایش جزئی حجم")
-
-    # --- Breakout (30 امتیاز) ---
-    if breakout["is_breakout"] and breakout["volume_confirmed"]:
-        score += 30
-        reasons.append("شکست مقاومت با تایید حجم")
-    elif breakout["is_breakout"]:
-        score += 15
-        reasons.append("شکست مقاومت بدون تایید حجم قوی")
+    # --- Breakout (25 امتیاز) ---
+    if breakout["is_breakout"]:
+        score += 25
+        reasons.append("شکست مقاومت اخیر")
 
     # --- RSI (20 امتیاز) ---
     if rsi is not None:
@@ -236,7 +222,6 @@ def score_coin(df):
         "rsi": round(rsi, 1) if rsi is not None else None,
         "macd_histogram": round(macd["histogram"], 5),
         "change_7candles_pct": round(momentum["change_long_pct"], 2),
-        "volume_ratio": round(momentum["volume_increase_ratio"], 2),
         "breakout": breakout["is_breakout"],
         "reasons": reasons,
     }
@@ -250,6 +235,11 @@ def send_telegram_message(text):
         print("⚠️ توکن یا Chat ID تلگرام تنظیم نشده. پیام ارسال نشد.")
         print(text)
         return
+
+    # بررسی صحت فرمت توکن قبل از ارسال (باید شبیه 123456:ABC... باشه)
+    if ":" not in TELEGRAM_BOT_TOKEN:
+        print(f"⚠️ فرمت TELEGRAM_BOT_TOKEN نامعتبر به‌نظر می‌رسد (طول={len(TELEGRAM_BOT_TOKEN)}). "
+              f"لطفاً مقدار Secret را در گیت‌هاب دوباره بررسی کنید.")
 
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     # تلگرام محدودیت طول پیام داره (4096 کاراکتر)، در صورت نیاز تقسیم می‌کنیم
@@ -277,8 +267,8 @@ def format_report(results):
     for i, r in enumerate(results[:TOP_N_RESULTS], 1):
         lines.append(
             f"{i}. <b>{r['symbol']}</b> — امتیاز: {r['score']}/100\n"
-            f"   قیمت: ${r['price']:.4f} | تغییر {KLINE_INTERVAL}×7: {r['change_7candles_pct']}%\n"
-            f"   RSI: {r['rsi']} | حجم نسبت به میانگین: {r['volume_ratio']}x\n"
+            f"   قیمت: ${r['price']:.4f} | تغییر اخیر: {r['change_7candles_pct']}%\n"
+            f"   RSI: {r['rsi']} | شکست مقاومت: {'بله' if r['breakout'] else 'خیر'}\n"
             f"   دلایل: {', '.join(r['reasons'])}\n"
         )
 
@@ -298,12 +288,16 @@ def main():
     checked = 0
     skipped = 0
 
-    for coin in universe:
+    total = len(universe)
+    for i, coin in enumerate(universe, 1):
         symbol = coin["symbol"].upper()
-        binance_symbol = f"{symbol}USDT"
+        coin_id = coin["id"]
 
-        df = get_klines(binance_symbol)
+        df = get_ohlc(coin_id)
         time.sleep(REQUEST_DELAY)
+
+        if i % 50 == 0:
+            print(f"پیشرفت: {i}/{total} کوین بررسی شد...")
 
         if df is None:
             skipped += 1
@@ -327,8 +321,8 @@ def main():
 
     results.sort(key=lambda x: x["score"], reverse=True)
 
-    print(f"\nبررسی شد: {checked} کوین (روی Binance موجود بودن)")
-    print(f"رد شد: {skipped} کوین (جفت‌ارز روی Binance موجود نبود)")
+    print(f"\nبررسی شد: {checked} کوین (داده کندل موجود بود)")
+    print(f"رد شد: {skipped} کوین (داده کندل کافی از CoinGecko دریافت نشد)")
     print(f"واجد شرایط (امتیاز >= {MIN_SCORE_TO_REPORT}): {len(results)} کوین\n")
 
     report = format_report(results)
