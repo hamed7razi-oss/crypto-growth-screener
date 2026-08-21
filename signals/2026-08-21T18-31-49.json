@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "MORPHO",
+    "score": 75,
+    "price": 2.44
+  },
+  {
+    "symbol": "ENA",
+    "score": 75,
+    "price": 0.148948
+  },
+  {
+    "symbol": "JUP",
+    "score": 75,
+    "price": 0.210141
+  },
+  {
+    "symbol": "FLR",
+    "score": 75,
+    "price": 0.00742655
+  },
+  {
+    "symbol": "ETHFI",
+    "score": 75,
+    "price": 0.585182
+  },
+  {
+    "symbol": "APT",
+    "score": 75,
+    "price": 0.638016
+  },
+  {
+    "symbol": "PENGU",
+    "score": 75,
+    "price": 0.00827144
+  },
+  {
+    "symbol": "VIRTUAL",
+    "score": 75,
+    "price": 0.719438
+  },
+  {
+    "symbol": "TIA",
+    "score": 75,
+    "price": 0.390808
+  },
+  {
+    "symbol": "BSV",
+    "score": 75,
+    "price": 18.24
+  }
+]
