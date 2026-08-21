@@ -1,0 +1,57 @@
+[
+  {
+    "timestamp": "2026-08-21T15:23:16.871256+00:00",
+    "coins": [
+      {
+        "symbol": "币安人生",
+        "score": 90,
+        "price": 0.515608
+      },
+      {
+        "symbol": "VELVET",
+        "score": 90,
+        "price": 0.773931
+      },
+      {
+        "symbol": "ANSEM",
+        "score": 90,
+        "price": 0.280467
+      },
+      {
+        "symbol": "QRL",
+        "score": 90,
+        "price": 0.922603
+      },
+      {
+        "symbol": "PUMP",
+        "score": 75,
+        "price": 0.00407938
+      },
+      {
+        "symbol": "DOT",
+        "score": 75,
+        "price": 0.893452
+      },
+      {
+        "symbol": "WLD",
+        "score": 75,
+        "price": 0.397838
+      },
+      {
+        "symbol": "ALGO",
+        "score": 75,
+        "price": 0.093998
+      },
+      {
+        "symbol": "NEXO",
+        "score": 75,
+        "price": 0.846266
+      },
+      {
+        "symbol": "RENDER",
+        "score": 75,
+        "price": 1.49
+      }
+    ]
+  }
+]
