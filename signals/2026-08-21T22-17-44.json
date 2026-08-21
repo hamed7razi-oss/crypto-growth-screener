@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "PEPE",
+    "score": 75,
+    "price": 3.85e-06
+  },
+  {
+    "symbol": "ETC",
+    "score": 75,
+    "price": 7.66
+  },
+  {
+    "symbol": "LIT",
+    "score": 75,
+    "price": 3.05
+  },
+  {
+    "symbol": "BSV",
+    "score": 75,
+    "price": 17.96
+  },
+  {
+    "symbol": "IOTA",
+    "score": 75,
+    "price": 0.04330919
+  },
+  {
+    "symbol": "THETA",
+    "score": 75,
+    "price": 0.188082
+  },
+  {
+    "symbol": "KMNO",
+    "score": 75,
+    "price": 0.02565017
+  },
+  {
+    "symbol": "A",
+    "score": 75,
+    "price": 0.076755
+  },
+  {
+    "symbol": "GALA",
+    "score": 75,
+    "price": 0.00217158
+  },
+  {
+    "symbol": "ATH",
+    "score": 75,
+    "price": 0.00470575
+  }
+]
