@@ -15,7 +15,9 @@ GitHub Actions معمولاً توسط Binance به‌خاطر محدودیت ج
 """
 
 import os
+import json
 import time
+from datetime import datetime, timezone
 import requests
 import pandas as pd
 import numpy as np
@@ -258,6 +260,27 @@ def send_telegram_message(text):
         time.sleep(0.5)
 
 
+# ---------------------------------------------------------------------------
+# ۵.۵) ذخیره اسنپ‌شات سیگنال‌ها (برای خواندن خودکار توسط پروژه ردیاب عملکرد)
+# ---------------------------------------------------------------------------
+def save_signal_snapshot(results):
+    """
+    نتایج این اجرا رو (فقط نماد، امتیاز، قیمت) تو پوشه signals/ ذخیره می‌کنه
+    تا پروژه جداگانه‌ی ردیاب عملکرد بتونه خودکار بخونتش.
+    """
+    if not results:
+        return
+    os.makedirs("signals", exist_ok=True)
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%S")
+    payload = [
+        {"symbol": r["symbol"], "score": r["score"], "price": r["price"]}
+        for r in results[:TOP_N_RESULTS]
+    ]
+    with open(f"signals/{ts}.json", "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    print(f"سیگنال‌ها ذخیره شد: signals/{ts}.json")
+
+
 def format_report(results):
     if not results:
         return "🔍 <b>گزارش اسکرینر کریپتو</b>\n\nهیچ کوینی امتیاز کافی کسب نکرد."
@@ -277,7 +300,35 @@ def format_report(results):
 
 
 # ---------------------------------------------------------------------------
-# ۶) اجرای اصلی
+# ۶.۵) ذخیره گزارش در signals/all_signals.json (برای خواندن خودکار توسط پروژه ردیاب)
+# ---------------------------------------------------------------------------
+def save_signal_record(results):
+    if not results:
+        return
+    signal = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "coins": [
+            {"symbol": r["symbol"], "score": r["score"], "price": r["price"]}
+            for r in results[:TOP_N_RESULTS]
+        ],
+    }
+    os.makedirs("signals", exist_ok=True)
+    path = "signals/all_signals.json"
+    if os.path.exists(path):
+        with open(path, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+            except json.JSONDecodeError:
+                data = []
+    else:
+        data = []
+    data.append(signal)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+# ---------------------------------------------------------------------------
+# ۷) اجرای اصلی
 # ---------------------------------------------------------------------------
 def main():
     print("در حال دریافت لیست کوین‌های میان‌رده از CoinGecko...")
@@ -328,6 +379,8 @@ def main():
     report = format_report(results)
     print(report)
     send_telegram_message(report)
+    save_signal_snapshot(results)
+    save_signal_record(results)
 
 
 if __name__ == "__main__":
