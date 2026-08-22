@@ -273,5 +273,60 @@
         "price": 8.68
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-22T10:27:07.803944+00:00",
+    "coins": [
+      {
+        "symbol": "PUMP",
+        "score": 75,
+        "price": 0.00444061
+      },
+      {
+        "symbol": "POL",
+        "score": 75,
+        "price": 0.118742
+      },
+      {
+        "symbol": "APEPE",
+        "score": 75,
+        "price": 1.26e-06
+      },
+      {
+        "symbol": "MET",
+        "score": 75,
+        "price": 0.23343
+      },
+      {
+        "symbol": "ZAMA",
+        "score": 75,
+        "price": 0.053463
+      },
+      {
+        "symbol": "UP",
+        "score": 75,
+        "price": 0.453374
+      },
+      {
+        "symbol": "CARDS",
+        "score": 75,
+        "price": 0.226805
+      },
+      {
+        "symbol": "ZRX",
+        "score": 75,
+        "price": 0.101662
+      },
+      {
+        "symbol": "PRL",
+        "score": 75,
+        "price": 0.330402
+      },
+      {
+        "symbol": "STRCX",
+        "score": 73,
+        "price": 103.4
+      }
+    ]
   }
 ]
