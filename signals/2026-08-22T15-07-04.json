@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "USAT",
+    "score": 73,
+    "price": 0.999787
+  },
+  {
+    "symbol": "ANTFUN",
+    "score": 73,
+    "price": 0.04233644
+  },
+  {
+    "symbol": "UB",
+    "score": 65,
+    "price": 0.123011
+  },
+  {
+    "symbol": "DCR",
+    "score": 65,
+    "price": 13.83
+  },
+  {
+    "symbol": "UP",
+    "score": 65,
+    "price": 0.444887
+  },
+  {
+    "symbol": "RE",
+    "score": 65,
+    "price": 0.528177
+  },
+  {
+    "symbol": "PRL",
+    "score": 65,
+    "price": 0.290068
+  },
+  {
+    "symbol": "BABY",
+    "score": 65,
+    "price": 0.01281042
+  },
+  {
+    "symbol": "FRXUSD",
+    "score": 58,
+    "price": 0.999981
+  },
+  {
+    "symbol": "ENA",
+    "score": 50,
+    "price": 0.156685
+  }
+]
