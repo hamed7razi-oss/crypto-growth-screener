@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "UP",
+    "score": 100,
+    "price": 0.428209
+  },
+  {
+    "symbol": "GRASS",
+    "score": 90,
+    "price": 0.349864
+  },
+  {
+    "symbol": "SHORT",
+    "score": 90,
+    "price": 2.468e-05
+  },
+  {
+    "symbol": "RE",
+    "score": 90,
+    "price": 0.553194
+  },
+  {
+    "symbol": "PEPE",
+    "score": 75,
+    "price": 4.39e-06
+  },
+  {
+    "symbol": "DOT",
+    "score": 75,
+    "price": 1.024
+  },
+  {
+    "symbol": "ENA",
+    "score": 75,
+    "price": 0.161571
+  },
+  {
+    "symbol": "ICP",
+    "score": 75,
+    "price": 2.69
+  },
+  {
+    "symbol": "BGB",
+    "score": 75,
+    "price": 2.02
+  },
+  {
+    "symbol": "ETC",
+    "score": 75,
+    "price": 8.68
+  }
+]
