@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "DIEM",
+    "score": 90,
+    "price": 1734.84
+  },
+  {
+    "symbol": "VVV",
+    "score": 75,
+    "price": 17.4
+  },
+  {
+    "symbol": "CVX",
+    "score": 75,
+    "price": 2.13
+  },
+  {
+    "symbol": "AKE",
+    "score": 65,
+    "price": 0.00870583
+  },
+  {
+    "symbol": "UP",
+    "score": 65,
+    "price": 0.451672
+  },
+  {
+    "symbol": "FF",
+    "score": 58,
+    "price": 0.077169
+  },
+  {
+    "symbol": "POL",
+    "score": 50,
+    "price": 0.111743
+  }
+]
