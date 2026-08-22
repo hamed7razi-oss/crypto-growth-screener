@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "KAITO",
+    "score": 90,
+    "price": 0.393758
+  },
+  {
+    "symbol": "SKYAI",
+    "score": 90,
+    "price": 0.082624
+  },
+  {
+    "symbol": "SOON",
+    "score": 90,
+    "price": 0.213592
+  },
+  {
+    "symbol": "WM",
+    "score": 83,
+    "price": 0.999806
+  },
+  {
+    "symbol": "PEPE",
+    "score": 75,
+    "price": 4.17e-06
+  },
+  {
+    "symbol": "DOT",
+    "score": 75,
+    "price": 0.996334
+  },
+  {
+    "symbol": "ETC",
+    "score": 75,
+    "price": 8.93
+  },
+  {
+    "symbol": "PI",
+    "score": 75,
+    "price": 0.103192
+  },
+  {
+    "symbol": "POL",
+    "score": 75,
+    "price": 0.099214
+  },
+  {
+    "symbol": "ALGO",
+    "score": 75,
+    "price": 0.101667
+  }
+]
