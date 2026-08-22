@@ -423,5 +423,60 @@
         "price": 0.111743
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-22T22:07:38.433999+00:00",
+    "coins": [
+      {
+        "symbol": "DIEM",
+        "score": 90,
+        "price": 1738.25
+      },
+      {
+        "symbol": "STX",
+        "score": 75,
+        "price": 0.227733
+      },
+      {
+        "symbol": "NPC",
+        "score": 75,
+        "price": 0.00898302
+      },
+      {
+        "symbol": "WKC",
+        "score": 75,
+        "price": 1.20594e-07
+      },
+      {
+        "symbol": "TUT",
+        "score": 75,
+        "price": 0.07699
+      },
+      {
+        "symbol": "TUSD",
+        "score": 73,
+        "price": 0.998587
+      },
+      {
+        "symbol": "TRAC",
+        "score": 65,
+        "price": 0.316382
+      },
+      {
+        "symbol": "U",
+        "score": 58,
+        "price": 0.999503
+      },
+      {
+        "symbol": "MON",
+        "score": 58,
+        "price": 0.02996231
+      },
+      {
+        "symbol": "SOFID",
+        "score": 58,
+        "price": 0.99926
+      }
+    ]
   }
 ]
