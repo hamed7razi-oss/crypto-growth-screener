@@ -728,5 +728,60 @@
         "price": 0.01042498
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-23T21:37:12.627306+00:00",
+    "coins": [
+      {
+        "symbol": "SUPER",
+        "score": 100,
+        "price": 0.108324
+      },
+      {
+        "symbol": "MORPHO",
+        "score": 90,
+        "price": 2.71
+      },
+      {
+        "symbol": "LDO",
+        "score": 90,
+        "price": 0.409789
+      },
+      {
+        "symbol": "XYO",
+        "score": 90,
+        "price": 0.00350613
+      },
+      {
+        "symbol": "PENGU",
+        "score": 85,
+        "price": 0.00986651
+      },
+      {
+        "symbol": "SMILEK",
+        "score": 80,
+        "price": 5e-05
+      },
+      {
+        "symbol": "INJ",
+        "score": 75,
+        "price": 5.28
+      },
+      {
+        "symbol": "GRASS",
+        "score": 75,
+        "price": 0.354894
+      },
+      {
+        "symbol": "APE",
+        "score": 75,
+        "price": 0.149767
+      },
+      {
+        "symbol": "EDGE",
+        "score": 75,
+        "price": 0.382451
+      }
+    ]
   }
 ]
