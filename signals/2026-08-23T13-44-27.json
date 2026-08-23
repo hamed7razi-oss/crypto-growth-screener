@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "ENA",
+    "score": 75,
+    "price": 0.176179
+  },
+  {
+    "symbol": "PENDLE",
+    "score": 75,
+    "price": 1.75
+  },
+  {
+    "symbol": "UAI",
+    "score": 75,
+    "price": 0.270701
+  },
+  {
+    "symbol": "ACRED",
+    "score": 58,
+    "price": 1109.14
+  },
+  {
+    "symbol": "USDSUI",
+    "score": 58,
+    "price": 1.002
+  },
+  {
+    "symbol": "NILA",
+    "score": 58,
+    "price": 0.07829
+  },
+  {
+    "symbol": "OZA",
+    "score": 58,
+    "price": 0.055376
+  },
+  {
+    "symbol": "MORPHO",
+    "score": 55,
+    "price": 2.43
+  },
+  {
+    "symbol": "SPX",
+    "score": 55,
+    "price": 0.465488
+  },
+  {
+    "symbol": "MON",
+    "score": 55,
+    "price": 0.02947308
+  }
+]
