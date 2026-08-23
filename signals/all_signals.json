@@ -533,5 +533,45 @@
         "price": 13.83
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-23T06:41:03.513304+00:00",
+    "coins": [
+      {
+        "symbol": "REKT",
+        "score": 90,
+        "price": 1.30757e-07
+      },
+      {
+        "symbol": "TRAC",
+        "score": 75,
+        "price": 0.373206
+      },
+      {
+        "symbol": "XP",
+        "score": 65,
+        "price": 0.0164245
+      },
+      {
+        "symbol": "RLB",
+        "score": 58,
+        "price": 0.079091
+      },
+      {
+        "symbol": "CROSS",
+        "score": 55,
+        "price": 0.113658
+      },
+      {
+        "symbol": "ZRO",
+        "score": 50,
+        "price": 1.14
+      },
+      {
+        "symbol": "CCD",
+        "score": 50,
+        "price": 0.0039004
+      }
+    ]
   }
 ]
