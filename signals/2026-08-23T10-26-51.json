@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "ZRO",
+    "score": 75,
+    "price": 1.24
+  },
+  {
+    "symbol": "TRAC",
+    "score": 65,
+    "price": 0.360835
+  },
+  {
+    "symbol": "CYS",
+    "score": 65,
+    "price": 0.571804
+  },
+  {
+    "symbol": "A7A5",
+    "score": 58,
+    "price": 0.01203802
+  },
+  {
+    "symbol": "SOFID",
+    "score": 58,
+    "price": 0.999496
+  },
+  {
+    "symbol": "XP",
+    "score": 55,
+    "price": 0.01629121
+  },
+  {
+    "symbol": "UP",
+    "score": 50,
+    "price": 0.463616
+  },
+  {
+    "symbol": "TUT",
+    "score": 50,
+    "price": 0.060909
+  }
+]
