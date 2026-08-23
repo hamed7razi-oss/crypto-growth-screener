@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "REKT",
+    "score": 90,
+    "price": 1.32951e-07
+  },
+  {
+    "symbol": "FF",
+    "score": 75,
+    "price": 0.082565
+  },
+  {
+    "symbol": "FOLD",
+    "score": 75,
+    "price": 0.157629
+  },
+  {
+    "symbol": "PYTH",
+    "score": 65,
+    "price": 0.04950675
+  },
+  {
+    "symbol": "TRAC",
+    "score": 65,
+    "price": 0.398343
+  },
+  {
+    "symbol": "XP",
+    "score": 65,
+    "price": 0.0158654
+  },
+  {
+    "symbol": "RLB",
+    "score": 58,
+    "price": 0.079765
+  },
+  {
+    "symbol": "ENA",
+    "score": 50,
+    "price": 0.151372
+  },
+  {
+    "symbol": "STX",
+    "score": 50,
+    "price": 0.207939
+  },
+  {
+    "symbol": "DCR",
+    "score": 50,
+    "price": 13.83
+  }
+]
