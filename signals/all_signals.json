@@ -673,5 +673,60 @@
         "price": 0.02947308
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-23T17:39:29.861024+00:00",
+    "coins": [
+      {
+        "symbol": "MORPHO",
+        "score": 100,
+        "price": 2.69
+      },
+      {
+        "symbol": "XPL",
+        "score": 100,
+        "price": 0.10801
+      },
+      {
+        "symbol": "SPK",
+        "score": 85,
+        "price": 0.0204189
+      },
+      {
+        "symbol": "KNTQ",
+        "score": 85,
+        "price": 0.183846
+      },
+      {
+        "symbol": "PENDLE",
+        "score": 75,
+        "price": 1.91
+      },
+      {
+        "symbol": "RAY",
+        "score": 75,
+        "price": 0.779697
+      },
+      {
+        "symbol": "IMX",
+        "score": 75,
+        "price": 0.129136
+      },
+      {
+        "symbol": "EGLD",
+        "score": 75,
+        "price": 3.49
+      },
+      {
+        "symbol": "SN64",
+        "score": 75,
+        "price": 18.2
+      },
+      {
+        "symbol": "NPC",
+        "score": 75,
+        "price": 0.01042498
+      }
+    ]
   }
 ]
