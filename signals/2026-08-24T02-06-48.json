@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "ARRR",
+    "score": 100,
+    "price": 0.227842
+  },
+  {
+    "symbol": "GRASS",
+    "score": 90,
+    "price": 0.369828
+  },
+  {
+    "symbol": "IMX",
+    "score": 90,
+    "price": 0.134624
+  },
+  {
+    "symbol": "LIT",
+    "score": 75,
+    "price": 3.59
+  },
+  {
+    "symbol": "GRT",
+    "score": 75,
+    "price": 0.01720906
+  },
+  {
+    "symbol": "MET",
+    "score": 75,
+    "price": 0.250027
+  },
+  {
+    "symbol": "DRV",
+    "score": 75,
+    "price": 0.131154
+  },
+  {
+    "symbol": "NPC",
+    "score": 75,
+    "price": 0.01178722
+  },
+  {
+    "symbol": "DOG",
+    "score": 75,
+    "price": 0.00094406
+  },
+  {
+    "symbol": "SMILEK",
+    "score": 75,
+    "price": 5e-05
+  }
+]
