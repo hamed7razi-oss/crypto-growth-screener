@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "GOMINING",
+    "score": 85,
+    "price": 0.33858
+  },
+  {
+    "symbol": "APYUSD",
+    "score": 83,
+    "price": 1.36
+  },
+  {
+    "symbol": "INJ",
+    "score": 75,
+    "price": 5.75
+  },
+  {
+    "symbol": "VIRTUAL",
+    "score": 75,
+    "price": 0.819843
+  },
+  {
+    "symbol": "KOGE",
+    "score": 75,
+    "price": 60.0
+  },
+  {
+    "symbol": "CASHCAT",
+    "score": 75,
+    "price": 0.187771
+  },
+  {
+    "symbol": "AKT",
+    "score": 75,
+    "price": 0.582014
+  },
+  {
+    "symbol": "NPC",
+    "score": 75,
+    "price": 0.01308538
+  },
+  {
+    "symbol": "KNTQ",
+    "score": 75,
+    "price": 0.257667
+  },
+  {
+    "symbol": "GEKKO",
+    "score": 75,
+    "price": 8.78747e-07
+  }
+]
