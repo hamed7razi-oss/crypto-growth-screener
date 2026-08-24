@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "DRV",
+    "score": 75,
+    "price": 0.136678
+  },
+  {
+    "symbol": "PENGU",
+    "score": 65,
+    "price": 0.00953011
+  },
+  {
+    "symbol": "CASHCAT",
+    "score": 65,
+    "price": 0.145842
+  },
+  {
+    "symbol": "PURR",
+    "score": 65,
+    "price": 0.135082
+  },
+  {
+    "symbol": "ANVL",
+    "score": 65,
+    "price": 0.0009046
+  },
+  {
+    "symbol": "QRL",
+    "score": 65,
+    "price": 0.927991
+  },
+  {
+    "symbol": "CHIP",
+    "score": 65,
+    "price": 0.03257533
+  },
+  {
+    "symbol": "XAUM",
+    "score": 63,
+    "price": 4607.37
+  },
+  {
+    "symbol": "KOGE",
+    "score": 58,
+    "price": 54.34
+  },
+  {
+    "symbol": "YZY",
+    "score": 58,
+    "price": 0.294093
+  }
+]
