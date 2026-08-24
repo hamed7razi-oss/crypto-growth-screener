@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "MON",
+    "score": 100,
+    "price": 0.03095328
+  },
+  {
+    "symbol": "AMP",
+    "score": 85,
+    "price": 0.00049993
+  },
+  {
+    "symbol": "CASHCAT",
+    "score": 75,
+    "price": 0.182299
+  },
+  {
+    "symbol": "DRV",
+    "score": 75,
+    "price": 0.16434
+  },
+  {
+    "symbol": "CYS",
+    "score": 75,
+    "price": 0.641855
+  },
+  {
+    "symbol": "GEKKO",
+    "score": 75,
+    "price": 9.28589e-07
+  },
+  {
+    "symbol": "VIRTUAL",
+    "score": 65,
+    "price": 0.772872
+  },
+  {
+    "symbol": "ATH",
+    "score": 65,
+    "price": 0.00510094
+  },
+  {
+    "symbol": "CSPR",
+    "score": 65,
+    "price": 0.0026792
+  },
+  {
+    "symbol": "TUSD",
+    "score": 58,
+    "price": 0.998066
+  }
+]
