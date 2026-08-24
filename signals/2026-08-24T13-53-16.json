@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "VIRTUAL",
+    "score": 100,
+    "price": 0.773049
+  },
+  {
+    "symbol": "AERO",
+    "score": 90,
+    "price": 0.514807
+  },
+  {
+    "symbol": "STX",
+    "score": 90,
+    "price": 0.244347
+  },
+  {
+    "symbol": "ZANO",
+    "score": 85,
+    "price": 8.61
+  },
+  {
+    "symbol": "VSN",
+    "score": 75,
+    "price": 0.03879211
+  },
+  {
+    "symbol": "STAU",
+    "score": 75,
+    "price": 0.00830132
+  },
+  {
+    "symbol": "RLB",
+    "score": 73,
+    "price": 0.080088
+  },
+  {
+    "symbol": "ETHFI",
+    "score": 65,
+    "price": 0.634287
+  },
+  {
+    "symbol": "KAG",
+    "score": 65,
+    "price": 60.34
+  },
+  {
+    "symbol": "ZAMA",
+    "score": 65,
+    "price": 0.059514
+  }
+]
