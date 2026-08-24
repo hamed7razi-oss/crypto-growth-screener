@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "GRASS",
+    "score": 90,
+    "price": 0.372802
+  },
+  {
+    "symbol": "UAI",
+    "score": 90,
+    "price": 0.346008
+  },
+  {
+    "symbol": "AERO",
+    "score": 75,
+    "price": 0.492733
+  },
+  {
+    "symbol": "PROM",
+    "score": 75,
+    "price": 3.75
+  },
+  {
+    "symbol": "TUT",
+    "score": 75,
+    "price": 0.078325
+  },
+  {
+    "symbol": "RLB",
+    "score": 73,
+    "price": 0.079883
+  },
+  {
+    "symbol": "ETHFI",
+    "score": 65,
+    "price": 0.63146
+  },
+  {
+    "symbol": "MNT",
+    "score": 58,
+    "price": 0.519837
+  },
+  {
+    "symbol": "KAU",
+    "score": 58,
+    "price": 149.42
+  },
+  {
+    "symbol": "USDKG",
+    "score": 58,
+    "price": 0.999753
+  }
+]
