@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "PONS",
+    "score": 75,
+    "price": 0.107218
+  },
+  {
+    "symbol": "PMUSD",
+    "score": 75,
+    "price": 0.561254
+  },
+  {
+    "symbol": "SPX",
+    "score": 65,
+    "price": 0.520819
+  },
+  {
+    "symbol": "OMI",
+    "score": 65,
+    "price": 0.00023581
+  },
+  {
+    "symbol": "DOS",
+    "score": 65,
+    "price": 0.241859
+  },
+  {
+    "symbol": "MX",
+    "score": 58,
+    "price": 1.7
+  },
+  {
+    "symbol": "STAC",
+    "score": 58,
+    "price": 1029.4
+  },
+  {
+    "symbol": "ACRED",
+    "score": 58,
+    "price": 1110.04
+  },
+  {
+    "symbol": "QUBIC",
+    "score": 58,
+    "price": 4.24888e-07
+  },
+  {
+    "symbol": "FUN",
+    "score": 58,
+    "price": 0.00519374
+  }
+]
