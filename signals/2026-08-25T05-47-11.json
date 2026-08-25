@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "RAY",
+    "score": 100,
+    "price": 0.821228
+  },
+  {
+    "symbol": "POPCAT",
+    "score": 100,
+    "price": 0.062966
+  },
+  {
+    "symbol": "CSPR",
+    "score": 90,
+    "price": 0.00291627
+  },
+  {
+    "symbol": "META",
+    "score": 85,
+    "price": 6.72
+  },
+  {
+    "symbol": "OMI",
+    "score": 80,
+    "price": 0.00022644
+  },
+  {
+    "symbol": "BTW",
+    "score": 75,
+    "price": 0.459464
+  },
+  {
+    "symbol": "PROM",
+    "score": 75,
+    "price": 4.8
+  },
+  {
+    "symbol": "PONS",
+    "score": 75,
+    "price": 0.087211
+  },
+  {
+    "symbol": "UTYA",
+    "score": 75,
+    "price": 0.04633816
+  },
+  {
+    "symbol": "ARC",
+    "score": 73,
+    "price": 0.072468
+  }
+]
