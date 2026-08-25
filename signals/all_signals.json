@@ -1223,5 +1223,60 @@
         "price": 0.072468
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-25T09:54:15.787576+00:00",
+    "coins": [
+      {
+        "symbol": "STX",
+        "score": 100,
+        "price": 0.269473
+      },
+      {
+        "symbol": "BR",
+        "score": 100,
+        "price": 0.259771
+      },
+      {
+        "symbol": "SHFL",
+        "score": 90,
+        "price": 0.299976
+      },
+      {
+        "symbol": "POL",
+        "score": 75,
+        "price": 0.122512
+      },
+      {
+        "symbol": "KAG",
+        "score": 75,
+        "price": 64.35
+      },
+      {
+        "symbol": "DOG",
+        "score": 75,
+        "price": 0.00133147
+      },
+      {
+        "symbol": "RE",
+        "score": 75,
+        "price": 0.582439
+      },
+      {
+        "symbol": "ONG",
+        "score": 75,
+        "price": 0.09789
+      },
+      {
+        "symbol": "UB",
+        "score": 65,
+        "price": 0.129256
+      },
+      {
+        "symbol": "RAY",
+        "score": 65,
+        "price": 0.812044
+      }
+    ]
   }
 ]
