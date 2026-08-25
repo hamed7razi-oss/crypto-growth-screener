@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "UP",
+    "score": 100,
+    "price": 0.497153
+  },
+  {
+    "symbol": "SPX",
+    "score": 85,
+    "price": 0.522704
+  },
+  {
+    "symbol": "FF",
+    "score": 85,
+    "price": 0.10215
+  },
+  {
+    "symbol": "VVV",
+    "score": 80,
+    "price": 18.28
+  },
+  {
+    "symbol": "POL",
+    "score": 75,
+    "price": 0.123392
+  },
+  {
+    "symbol": "TWT",
+    "score": 75,
+    "price": 0.457265
+  },
+  {
+    "symbol": "SPCXB",
+    "score": 73,
+    "price": 138.14
+  },
+  {
+    "symbol": "STX",
+    "score": 65,
+    "price": 0.25734
+  },
+  {
+    "symbol": "UB",
+    "score": 65,
+    "price": 0.126558
+  },
+  {
+    "symbol": "AKE",
+    "score": 65,
+    "price": 0.00886319
+  }
+]
