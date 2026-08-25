@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "UB",
+    "score": 90,
+    "price": 0.135484
+  },
+  {
+    "symbol": "OMI",
+    "score": 90,
+    "price": 0.00023298
+  },
+  {
+    "symbol": "ZBCN",
+    "score": 75,
+    "price": 0.00195891
+  },
+  {
+    "symbol": "STAU",
+    "score": 75,
+    "price": 0.00875122
+  },
+  {
+    "symbol": "HOLO",
+    "score": 75,
+    "price": 0.075344
+  },
+  {
+    "symbol": "PEAQ",
+    "score": 75,
+    "price": 0.02169929
+  },
+  {
+    "symbol": "JUP",
+    "score": 65,
+    "price": 0.215785
+  },
+  {
+    "symbol": "RAY",
+    "score": 65,
+    "price": 0.794134
+  },
+  {
+    "symbol": "KMNO",
+    "score": 65,
+    "price": 0.02673197
+  },
+  {
+    "symbol": "BR",
+    "score": 65,
+    "price": 0.254095
+  }
+]
