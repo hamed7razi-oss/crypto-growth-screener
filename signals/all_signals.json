@@ -1553,5 +1553,60 @@
         "price": 0.533072
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-26T09:57:19.362802+00:00",
+    "coins": [
+      {
+        "symbol": "FARTCOIN",
+        "score": 90,
+        "price": 0.207124
+      },
+      {
+        "symbol": "BCE",
+        "score": 90,
+        "price": 0.125461
+      },
+      {
+        "symbol": "MAGMA",
+        "score": 75,
+        "price": 0.23891
+      },
+      {
+        "symbol": "AKE",
+        "score": 65,
+        "price": 0.00848386
+      },
+      {
+        "symbol": "FLUID",
+        "score": 65,
+        "price": 1.52
+      },
+      {
+        "symbol": "CAP",
+        "score": 65,
+        "price": 0.071307
+      },
+      {
+        "symbol": "USDD",
+        "score": 58,
+        "price": 0.999708
+      },
+      {
+        "symbol": "OZO",
+        "score": 58,
+        "price": 0.131078
+      },
+      {
+        "symbol": "FRXUSD",
+        "score": 58,
+        "price": 0.99968
+      },
+      {
+        "symbol": "ONE",
+        "score": 58,
+        "price": 0.116649
+      }
+    ]
   }
 ]
