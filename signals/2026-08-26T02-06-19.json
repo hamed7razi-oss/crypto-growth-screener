@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "PMUSD",
+    "score": 90,
+    "price": 0.561522
+  },
+  {
+    "symbol": "A7A5",
+    "score": 83,
+    "price": 0.01211934
+  },
+  {
+    "symbol": "FUN",
+    "score": 73,
+    "price": 0.00522765
+  },
+  {
+    "symbol": "DOS",
+    "score": 65,
+    "price": 0.24381
+  },
+  {
+    "symbol": "FRAX",
+    "score": 58,
+    "price": 0.992215
+  },
+  {
+    "symbol": "GCOIN",
+    "score": 58,
+    "price": 0.00223444
+  },
+  {
+    "symbol": "OUSG",
+    "score": 53,
+    "price": 116.34
+  },
+  {
+    "symbol": "FF",
+    "score": 50,
+    "price": 0.101506
+  },
+  {
+    "symbol": "PONS",
+    "score": 50,
+    "price": 0.100236
+  },
+  {
+    "symbol": "APR",
+    "score": 50,
+    "price": 0.229211
+  }
+]
