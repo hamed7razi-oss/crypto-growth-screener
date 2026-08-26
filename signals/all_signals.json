@@ -1498,5 +1498,60 @@
         "price": 0.229211
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-26T05:55:57.522668+00:00",
+    "coins": [
+      {
+        "symbol": "FLUID",
+        "score": 85,
+        "price": 1.57
+      },
+      {
+        "symbol": "BCE",
+        "score": 83,
+        "price": 0.121553
+      },
+      {
+        "symbol": "EXOD",
+        "score": 80,
+        "price": 9.54
+      },
+      {
+        "symbol": "STX",
+        "score": 75,
+        "price": 0.280829
+      },
+      {
+        "symbol": "FARTCOIN",
+        "score": 75,
+        "price": 0.207474
+      },
+      {
+        "symbol": "PONS",
+        "score": 75,
+        "price": 0.121389
+      },
+      {
+        "symbol": "CX",
+        "score": 75,
+        "price": 0.03423184
+      },
+      {
+        "symbol": "ACU",
+        "score": 75,
+        "price": 0.128464
+      },
+      {
+        "symbol": "USAT",
+        "score": 68,
+        "price": 0.999885
+      },
+      {
+        "symbol": "币安人生",
+        "score": 65,
+        "price": 0.533072
+      }
+    ]
   }
 ]
