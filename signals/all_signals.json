@@ -1663,5 +1663,60 @@
         "price": 0.00528297
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-26T18:06:17.002631+00:00",
+    "coins": [
+      {
+        "symbol": "CX",
+        "score": 90,
+        "price": 0.03883656
+      },
+      {
+        "symbol": "ANTFUN",
+        "score": 83,
+        "price": 0.0443922
+      },
+      {
+        "symbol": "REQ",
+        "score": 83,
+        "price": 0.057355
+      },
+      {
+        "symbol": "CYS",
+        "score": 75,
+        "price": 0.746918
+      },
+      {
+        "symbol": "OMI",
+        "score": 75,
+        "price": 0.00025117
+      },
+      {
+        "symbol": "PEAQ",
+        "score": 75,
+        "price": 0.02406022
+      },
+      {
+        "symbol": "MEDXT",
+        "score": 75,
+        "price": 0.00226594
+      },
+      {
+        "symbol": "BCE",
+        "score": 65,
+        "price": 0.126309
+      },
+      {
+        "symbol": "牛来",
+        "score": 65,
+        "price": 0.04665938
+      },
+      {
+        "symbol": "NEXO",
+        "score": 63,
+        "price": 0.847703
+      }
+    ]
   }
 ]
