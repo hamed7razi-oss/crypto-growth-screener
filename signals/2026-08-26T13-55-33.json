@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "NCT",
+    "score": 75,
+    "price": 0.027366
+  },
+  {
+    "symbol": "KAG",
+    "score": 65,
+    "price": 68.35
+  },
+  {
+    "symbol": "DRV",
+    "score": 65,
+    "price": 0.181689
+  },
+  {
+    "symbol": "ANSEM",
+    "score": 65,
+    "price": 0.291073
+  },
+  {
+    "symbol": "FLUID",
+    "score": 65,
+    "price": 1.43
+  },
+  {
+    "symbol": "MAGMA",
+    "score": 65,
+    "price": 0.242486
+  },
+  {
+    "symbol": "SAFO",
+    "score": 63,
+    "price": 1.019
+  },
+  {
+    "symbol": "TUSD",
+    "score": 58,
+    "price": 0.997737
+  },
+  {
+    "symbol": "PLUME",
+    "score": 58,
+    "price": 0.01405744
+  },
+  {
+    "symbol": "FUN",
+    "score": 58,
+    "price": 0.00528297
+  }
+]
