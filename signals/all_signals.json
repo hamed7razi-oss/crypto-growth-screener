@@ -1828,5 +1828,60 @@
         "price": 2.39
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-27T20:02:32.449218+00:00",
+    "coins": [
+      {
+        "symbol": "BORG",
+        "score": 100,
+        "price": 0.18572
+      },
+      {
+        "symbol": "CRCLON",
+        "score": 100,
+        "price": 93.67
+      },
+      {
+        "symbol": "MELANIA",
+        "score": 100,
+        "price": 0.114044
+      },
+      {
+        "symbol": "CRCLB",
+        "score": 100,
+        "price": 93.66
+      },
+      {
+        "symbol": "CRCLX",
+        "score": 100,
+        "price": 93.75
+      },
+      {
+        "symbol": "USELESS",
+        "score": 100,
+        "price": 0.069551
+      },
+      {
+        "symbol": "UNT",
+        "score": 90,
+        "price": 0.086367
+      },
+      {
+        "symbol": "BSPX",
+        "score": 85,
+        "price": 44.5
+      },
+      {
+        "symbol": "MSTRX",
+        "score": 85,
+        "price": 135.89
+      },
+      {
+        "symbol": "MHORSE",
+        "score": 83,
+        "price": 0.060559
+      }
+    ]
   }
 ]

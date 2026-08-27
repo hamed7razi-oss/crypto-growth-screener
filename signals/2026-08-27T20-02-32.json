@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "BORG",
+    "coin_id": "swissborg",
+    "score": 100,
+    "price": 0.18572
+  },
+  {
+    "symbol": "CRCLON",
+    "coin_id": "circle-internet-group-ondo-tokenized-stock",
+    "score": 100,
+    "price": 93.67
+  },
+  {
+    "symbol": "MELANIA",
+    "coin_id": "melania-meme",
+    "score": 100,
+    "price": 0.114044
+  },
+  {
+    "symbol": "CRCLB",
+    "coin_id": "circle-internet-group-bstock",
+    "score": 100,
+    "price": 93.66
+  },
+  {
+    "symbol": "CRCLX",
+    "coin_id": "circle-xstock",
+    "score": 100,
+    "price": 93.75
+  },
+  {
+    "symbol": "USELESS",
+    "coin_id": "useless-3",
+    "score": 100,
+    "price": 0.069551
+  },
+  {
+    "symbol": "UNT",
+    "coin_id": "unitywallet-token",
+    "score": 90,
+    "price": 0.086367
+  },
+  {
+    "symbol": "BSPX",
+    "coin_id": "bending-spoons-xstock",
+    "score": 85,
+    "price": 44.5
+  },
+  {
+    "symbol": "MSTRX",
+    "coin_id": "microstrategy-xstock",
+    "score": 85,
+    "price": 135.89
+  },
+  {
+    "symbol": "MHORSE",
+    "coin_id": "meme-horse",
+    "score": 83,
+    "price": 0.060559
+  }
+]
