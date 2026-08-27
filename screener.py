@@ -273,7 +273,7 @@ def save_signal_snapshot(results):
     os.makedirs("signals", exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%S")
     payload = [
-        {"symbol": r["symbol"], "score": r["score"], "price": r["price"]}
+        {"symbol": r["symbol"], "coin_id": r["coin_id"], "score": r["score"], "price": r["price"]}
         for r in results[:TOP_N_RESULTS]
     ]
     with open(f"signals/{ts}.json", "w", encoding="utf-8") as f:
@@ -364,6 +364,7 @@ def main():
         if analysis["score"] >= MIN_SCORE_TO_REPORT:
             results.append({
                 "symbol": symbol,
+                "coin_id": coin_id,
                 "name": coin.get("name"),
                 "price": coin.get("current_price", 0),
                 "market_cap_rank": coin.get("market_cap_rank"),
