@@ -1718,5 +1718,60 @@
         "price": 0.847703
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-27T00:00:46.368297+00:00",
+    "coins": [
+      {
+        "symbol": "KITE",
+        "score": 100,
+        "price": 0.12374
+      },
+      {
+        "symbol": "CVX",
+        "score": 100,
+        "price": 2.43
+      },
+      {
+        "symbol": "S",
+        "score": 100,
+        "price": 0.03332222
+      },
+      {
+        "symbol": "CX",
+        "score": 90,
+        "price": 0.03970031
+      },
+      {
+        "symbol": "AIOZ",
+        "score": 85,
+        "price": 0.058707
+      },
+      {
+        "symbol": "SPX",
+        "score": 75,
+        "price": 0.583523
+      },
+      {
+        "symbol": "TIBBIR",
+        "score": 75,
+        "price": 0.255694
+      },
+      {
+        "symbol": "DRV",
+        "score": 75,
+        "price": 0.164749
+      },
+      {
+        "symbol": "CYS",
+        "score": 75,
+        "price": 0.788015
+      },
+      {
+        "symbol": "ACU",
+        "score": 75,
+        "price": 0.138116
+      }
+    ]
   }
 ]
