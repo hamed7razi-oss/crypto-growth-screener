@@ -1773,5 +1773,60 @@
         "price": 0.138116
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-27T07:13:19.557575+00:00",
+    "coins": [
+      {
+        "symbol": "RUNE",
+        "score": 85,
+        "price": 0.570427
+      },
+      {
+        "symbol": "GRASS",
+        "score": 75,
+        "price": 0.36795
+      },
+      {
+        "symbol": "ANSEM",
+        "score": 75,
+        "price": 0.357038
+      },
+      {
+        "symbol": "PONS",
+        "score": 75,
+        "price": 0.126329
+      },
+      {
+        "symbol": "XPIN",
+        "score": 75,
+        "price": 0.00131215
+      },
+      {
+        "symbol": "MOOLAH",
+        "score": 75,
+        "price": 0.04561923
+      },
+      {
+        "symbol": "USDF",
+        "score": 73,
+        "price": 0.998659
+      },
+      {
+        "symbol": "SAFE",
+        "score": 73,
+        "price": 0.146758
+      },
+      {
+        "symbol": "WEMIX",
+        "score": 73,
+        "price": 0.200106
+      },
+      {
+        "symbol": "CVX",
+        "score": 65,
+        "price": 2.39
+      }
+    ]
   }
 ]

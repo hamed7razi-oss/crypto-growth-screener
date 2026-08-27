@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "RUNE",
+    "coin_id": "thorchain",
+    "score": 85,
+    "price": 0.570427
+  },
+  {
+    "symbol": "GRASS",
+    "coin_id": "grass",
+    "score": 75,
+    "price": 0.36795
+  },
+  {
+    "symbol": "ANSEM",
+    "coin_id": "the-black-bull",
+    "score": 75,
+    "price": 0.357038
+  },
+  {
+    "symbol": "PONS",
+    "coin_id": "pons",
+    "score": 75,
+    "price": 0.126329
+  },
+  {
+    "symbol": "XPIN",
+    "coin_id": "xpin-network",
+    "score": 75,
+    "price": 0.00131215
+  },
+  {
+    "symbol": "MOOLAH",
+    "coin_id": "moolah",
+    "score": 75,
+    "price": 0.04561923
+  },
+  {
+    "symbol": "USDF",
+    "coin_id": "astherus-usdf",
+    "score": 73,
+    "price": 0.998659
+  },
+  {
+    "symbol": "SAFE",
+    "coin_id": "safecoin",
+    "score": 73,
+    "price": 0.146758
+  },
+  {
+    "symbol": "WEMIX",
+    "coin_id": "wemix-token",
+    "score": 73,
+    "price": 0.200106
+  },
+  {
+    "symbol": "CVX",
+    "coin_id": "convex-finance",
+    "score": 65,
+    "price": 2.39
+  }
+]
