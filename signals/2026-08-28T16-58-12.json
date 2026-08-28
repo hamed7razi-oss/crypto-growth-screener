@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "MAGMA",
+    "coin_id": "magma-finance",
+    "score": 75,
+    "price": 0.451297
+  },
+  {
+    "symbol": "DEXE",
+    "coin_id": "dexe",
+    "score": 75,
+    "price": 2.22
+  },
+  {
+    "symbol": "LAB",
+    "coin_id": "lab",
+    "score": 75,
+    "price": 0.079822
+  },
+  {
+    "symbol": "龙虾",
+    "coin_id": "lobster-2",
+    "score": 75,
+    "price": 0.061607
+  },
+  {
+    "symbol": "BCE",
+    "coin_id": "bitcastle-token",
+    "score": 75,
+    "price": 0.144855
+  },
+  {
+    "symbol": "KAVA",
+    "coin_id": "kava",
+    "score": 75,
+    "price": 0.04723021
+  },
+  {
+    "symbol": "UB",
+    "coin_id": "unibase",
+    "score": 65,
+    "price": 0.135346
+  },
+  {
+    "symbol": "US",
+    "coin_id": "talus",
+    "score": 65,
+    "price": 0.01834911
+  },
+  {
+    "symbol": "DOS",
+    "coin_id": "dappos",
+    "score": 65,
+    "price": 0.254987
+  },
+  {
+    "symbol": "BTW",
+    "coin_id": "bitway",
+    "score": 58,
+    "price": 0.405259
+  }
+]

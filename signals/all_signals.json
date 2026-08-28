@@ -1938,5 +1938,60 @@
         "price": 0.00938302
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-28T16:58:12.516228+00:00",
+    "coins": [
+      {
+        "symbol": "MAGMA",
+        "score": 75,
+        "price": 0.451297
+      },
+      {
+        "symbol": "DEXE",
+        "score": 75,
+        "price": 2.22
+      },
+      {
+        "symbol": "LAB",
+        "score": 75,
+        "price": 0.079822
+      },
+      {
+        "symbol": "龙虾",
+        "score": 75,
+        "price": 0.061607
+      },
+      {
+        "symbol": "BCE",
+        "score": 75,
+        "price": 0.144855
+      },
+      {
+        "symbol": "KAVA",
+        "score": 75,
+        "price": 0.04723021
+      },
+      {
+        "symbol": "UB",
+        "score": 65,
+        "price": 0.135346
+      },
+      {
+        "symbol": "US",
+        "score": 65,
+        "price": 0.01834911
+      },
+      {
+        "symbol": "DOS",
+        "score": 65,
+        "price": 0.254987
+      },
+      {
+        "symbol": "BTW",
+        "score": 58,
+        "price": 0.405259
+      }
+    ]
   }
 ]
