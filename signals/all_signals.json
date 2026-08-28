@@ -1883,5 +1883,60 @@
         "price": 0.060559
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-28T05:19:41.999675+00:00",
+    "coins": [
+      {
+        "symbol": "UB",
+        "score": 75,
+        "price": 0.130832
+      },
+      {
+        "symbol": "ANSEM",
+        "score": 75,
+        "price": 0.367705
+      },
+      {
+        "symbol": "SKR",
+        "score": 75,
+        "price": 0.01063535
+      },
+      {
+        "symbol": "GWEI",
+        "score": 75,
+        "price": 0.02720015
+      },
+      {
+        "symbol": "ENA",
+        "score": 65,
+        "price": 0.162776
+      },
+      {
+        "symbol": "MNT",
+        "score": 58,
+        "price": 0.514674
+      },
+      {
+        "symbol": "STRCX",
+        "score": 58,
+        "price": 105.33
+      },
+      {
+        "symbol": "PEAQ",
+        "score": 58,
+        "price": 0.02526167
+      },
+      {
+        "symbol": "FT",
+        "score": 58,
+        "price": 0.106856
+      },
+      {
+        "symbol": "PENGU",
+        "score": 55,
+        "price": 0.00938302
+      }
+    ]
   }
 ]

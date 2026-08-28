@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "UB",
+    "coin_id": "unibase",
+    "score": 75,
+    "price": 0.130832
+  },
+  {
+    "symbol": "ANSEM",
+    "coin_id": "the-black-bull",
+    "score": 75,
+    "price": 0.367705
+  },
+  {
+    "symbol": "SKR",
+    "coin_id": "seeker",
+    "score": 75,
+    "price": 0.01063535
+  },
+  {
+    "symbol": "GWEI",
+    "coin_id": "ethgas-2",
+    "score": 75,
+    "price": 0.02720015
+  },
+  {
+    "symbol": "ENA",
+    "coin_id": "ethena",
+    "score": 65,
+    "price": 0.162776
+  },
+  {
+    "symbol": "MNT",
+    "coin_id": "mantle",
+    "score": 58,
+    "price": 0.514674
+  },
+  {
+    "symbol": "STRCX",
+    "coin_id": "strategy-pp-variable-xstock",
+    "score": 58,
+    "price": 105.33
+  },
+  {
+    "symbol": "PEAQ",
+    "coin_id": "peaq-2",
+    "score": 58,
+    "price": 0.02526167
+  },
+  {
+    "symbol": "FT",
+    "coin_id": "flying-tulip",
+    "score": 58,
+    "price": 0.106856
+  },
+  {
+    "symbol": "PENGU",
+    "coin_id": "pudgy-penguins",
+    "score": 55,
+    "price": 0.00938302
+  }
+]
