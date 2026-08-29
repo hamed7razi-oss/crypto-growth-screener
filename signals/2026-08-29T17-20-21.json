@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "DASH",
+    "coin_id": "dash",
+    "score": 100,
+    "price": 41.85
+  },
+  {
+    "symbol": "TWT",
+    "coin_id": "trust-wallet-token",
+    "score": 100,
+    "price": 0.487605
+  },
+  {
+    "symbol": "FORM",
+    "coin_id": "four",
+    "score": 90,
+    "price": 0.254906
+  },
+  {
+    "symbol": "PROM",
+    "coin_id": "prometeus",
+    "score": 85,
+    "price": 5.51
+  },
+  {
+    "symbol": "TRUSD",
+    "coin_id": "tori-trusd",
+    "score": 83,
+    "price": 1.0
+  },
+  {
+    "symbol": "KITE",
+    "coin_id": "kite-2",
+    "score": 80,
+    "price": 0.134356
+  },
+  {
+    "symbol": "OHM",
+    "coin_id": "olympus",
+    "score": 75,
+    "price": 19.44
+  },
+  {
+    "symbol": "龙虾",
+    "coin_id": "lobster-2",
+    "score": 75,
+    "price": 0.074727
+  },
+  {
+    "symbol": "GMX",
+    "coin_id": "gmx",
+    "score": 73,
+    "price": 8.08
+  },
+  {
+    "symbol": "PROS",
+    "coin_id": "pharos-network",
+    "score": 73,
+    "price": 0.425025
+  }
+]
