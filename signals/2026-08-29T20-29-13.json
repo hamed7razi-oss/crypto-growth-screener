@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "DASH",
+    "coin_id": "dash",
+    "score": 100,
+    "price": 42.02
+  },
+  {
+    "symbol": "TWT",
+    "coin_id": "trust-wallet-token",
+    "score": 100,
+    "price": 0.490602
+  },
+  {
+    "symbol": "PROM",
+    "coin_id": "prometeus",
+    "score": 85,
+    "price": 6.6
+  },
+  {
+    "symbol": "KITE",
+    "coin_id": "kite-2",
+    "score": 80,
+    "price": 0.128477
+  },
+  {
+    "symbol": "OHM",
+    "coin_id": "olympus",
+    "score": 75,
+    "price": 19.44
+  },
+  {
+    "symbol": "龙虾",
+    "coin_id": "lobster-2",
+    "score": 75,
+    "price": 0.076407
+  },
+  {
+    "symbol": "ICP",
+    "coin_id": "internet-computer",
+    "score": 73,
+    "price": 2.52
+  },
+  {
+    "symbol": "PIEVERSE",
+    "coin_id": "pieverse",
+    "score": 73,
+    "price": 1.13
+  },
+  {
+    "symbol": "ATOM",
+    "coin_id": "cosmos",
+    "score": 58,
+    "price": 1.5
+  },
+  {
+    "symbol": "APE",
+    "coin_id": "apecoin",
+    "score": 58,
+    "price": 0.140893
+  }
+]
