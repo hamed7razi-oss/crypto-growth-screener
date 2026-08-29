@@ -2048,5 +2048,60 @@
         "price": 14.1
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-29T12:00:34.871360+00:00",
+    "coins": [
+      {
+        "symbol": "PONS",
+        "score": 90,
+        "price": 0.193701
+      },
+      {
+        "symbol": "UB",
+        "score": 75,
+        "price": 0.139734
+      },
+      {
+        "symbol": "O",
+        "score": 75,
+        "price": 0.527408
+      },
+      {
+        "symbol": "GEKKO",
+        "score": 75,
+        "price": 1.4e-06
+      },
+      {
+        "symbol": "HNT",
+        "score": 75,
+        "price": 0.417749
+      },
+      {
+        "symbol": "US",
+        "score": 75,
+        "price": 0.01994928
+      },
+      {
+        "symbol": "SOON",
+        "score": 73,
+        "price": 0.20574
+      },
+      {
+        "symbol": "ZETA",
+        "score": 73,
+        "price": 0.03391742
+      },
+      {
+        "symbol": "牛来",
+        "score": 65,
+        "price": 0.055874
+      },
+      {
+        "symbol": "MARSCOIN",
+        "score": 65,
+        "price": 0.051962
+      }
+    ]
   }
 ]

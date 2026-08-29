@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "PONS",
+    "coin_id": "pons",
+    "score": 90,
+    "price": 0.193701
+  },
+  {
+    "symbol": "UB",
+    "coin_id": "unibase",
+    "score": 75,
+    "price": 0.139734
+  },
+  {
+    "symbol": "O",
+    "coin_id": "o1-exchange",
+    "score": 75,
+    "price": 0.527408
+  },
+  {
+    "symbol": "GEKKO",
+    "coin_id": "gekko",
+    "score": 75,
+    "price": 1.4e-06
+  },
+  {
+    "symbol": "HNT",
+    "coin_id": "helium",
+    "score": 75,
+    "price": 0.417749
+  },
+  {
+    "symbol": "US",
+    "coin_id": "talus",
+    "score": 75,
+    "price": 0.01994928
+  },
+  {
+    "symbol": "SOON",
+    "coin_id": "soon-2",
+    "score": 73,
+    "price": 0.20574
+  },
+  {
+    "symbol": "ZETA",
+    "coin_id": "zetachain",
+    "score": 73,
+    "price": 0.03391742
+  },
+  {
+    "symbol": "牛来",
+    "coin_id": "niu-lai",
+    "score": 65,
+    "price": 0.055874
+  },
+  {
+    "symbol": "MARSCOIN",
+    "coin_id": "marscoin-4",
+    "score": 65,
+    "price": 0.051962
+  }
+]
