@@ -1993,5 +1993,60 @@
         "price": 0.405259
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-29T01:40:22.346647+00:00",
+    "coins": [
+      {
+        "symbol": "HNT",
+        "score": 100,
+        "price": 0.24827
+      },
+      {
+        "symbol": "AKE",
+        "score": 90,
+        "price": 0.0112886
+      },
+      {
+        "symbol": "MAGMA",
+        "score": 75,
+        "price": 0.517138
+      },
+      {
+        "symbol": "US",
+        "score": 75,
+        "price": 0.01815961
+      },
+      {
+        "symbol": "DOS",
+        "score": 75,
+        "price": 0.25612
+      },
+      {
+        "symbol": "OHM",
+        "score": 73,
+        "price": 18.38
+      },
+      {
+        "symbol": "ZETA",
+        "score": 68,
+        "price": 0.03379091
+      },
+      {
+        "symbol": "FILQ-A",
+        "score": 63,
+        "price": 101.07
+      },
+      {
+        "symbol": "TUSD",
+        "score": 58,
+        "price": 0.998202
+      },
+      {
+        "symbol": "DCR",
+        "score": 58,
+        "price": 14.1
+      }
+    ]
   }
 ]

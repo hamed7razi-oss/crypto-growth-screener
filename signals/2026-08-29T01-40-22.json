@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "HNT",
+    "coin_id": "helium",
+    "score": 100,
+    "price": 0.24827
+  },
+  {
+    "symbol": "AKE",
+    "coin_id": "akedo",
+    "score": 90,
+    "price": 0.0112886
+  },
+  {
+    "symbol": "MAGMA",
+    "coin_id": "magma-finance",
+    "score": 75,
+    "price": 0.517138
+  },
+  {
+    "symbol": "US",
+    "coin_id": "talus",
+    "score": 75,
+    "price": 0.01815961
+  },
+  {
+    "symbol": "DOS",
+    "coin_id": "dappos",
+    "score": 75,
+    "price": 0.25612
+  },
+  {
+    "symbol": "OHM",
+    "coin_id": "olympus",
+    "score": 73,
+    "price": 18.38
+  },
+  {
+    "symbol": "ZETA",
+    "coin_id": "zetachain",
+    "score": 68,
+    "price": 0.03379091
+  },
+  {
+    "symbol": "FILQ-A",
+    "coin_id": "fidelity-usd-digital-liquidity-fund-acc",
+    "score": 63,
+    "price": 101.07
+  },
+  {
+    "symbol": "TUSD",
+    "coin_id": "true-usd",
+    "score": 58,
+    "price": 0.998202
+  },
+  {
+    "symbol": "DCR",
+    "coin_id": "decred",
+    "score": 58,
+    "price": 14.1
+  }
+]
