@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "CARDS",
+    "coin_id": "collector-crypt",
+    "score": 100,
+    "price": 0.221817
+  },
+  {
+    "symbol": "PIEVERSE",
+    "coin_id": "pieverse",
+    "score": 90,
+    "price": 1.12
+  },
+  {
+    "symbol": "PROM",
+    "coin_id": "prometeus",
+    "score": 75,
+    "price": 6.87
+  },
+  {
+    "symbol": "GMX",
+    "coin_id": "gmx",
+    "score": 75,
+    "price": 8.05
+  },
+  {
+    "symbol": "TWT",
+    "coin_id": "trust-wallet-token",
+    "score": 65,
+    "price": 0.486357
+  },
+  {
+    "symbol": "FORM",
+    "coin_id": "four",
+    "score": 65,
+    "price": 0.247951
+  },
+  {
+    "symbol": "PLUME",
+    "coin_id": "plume",
+    "score": 58,
+    "price": 0.01424939
+  },
+  {
+    "symbol": "KSM",
+    "coin_id": "kusama",
+    "score": 58,
+    "price": 3.54
+  },
+  {
+    "symbol": "BCE",
+    "coin_id": "bitcastle-token",
+    "score": 58,
+    "price": 0.149563
+  },
+  {
+    "symbol": "OHM",
+    "coin_id": "olympus",
+    "score": 50,
+    "price": 19.58
+  }
+]

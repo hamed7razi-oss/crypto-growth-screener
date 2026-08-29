@@ -2213,5 +2213,60 @@
         "price": 0.140893
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-29T23:32:55.765271+00:00",
+    "coins": [
+      {
+        "symbol": "CARDS",
+        "score": 100,
+        "price": 0.221817
+      },
+      {
+        "symbol": "PIEVERSE",
+        "score": 90,
+        "price": 1.12
+      },
+      {
+        "symbol": "PROM",
+        "score": 75,
+        "price": 6.87
+      },
+      {
+        "symbol": "GMX",
+        "score": 75,
+        "price": 8.05
+      },
+      {
+        "symbol": "TWT",
+        "score": 65,
+        "price": 0.486357
+      },
+      {
+        "symbol": "FORM",
+        "score": 65,
+        "price": 0.247951
+      },
+      {
+        "symbol": "PLUME",
+        "score": 58,
+        "price": 0.01424939
+      },
+      {
+        "symbol": "KSM",
+        "score": 58,
+        "price": 3.54
+      },
+      {
+        "symbol": "BCE",
+        "score": 58,
+        "price": 0.149563
+      },
+      {
+        "symbol": "OHM",
+        "score": 50,
+        "price": 19.58
+      }
+    ]
   }
 ]
