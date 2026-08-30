@@ -2268,5 +2268,60 @@
         "price": 19.58
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-30T03:52:40.242928+00:00",
+    "coins": [
+      {
+        "symbol": "BTW",
+        "score": 75,
+        "price": 0.454748
+      },
+      {
+        "symbol": "CARDS",
+        "score": 75,
+        "price": 0.25205
+      },
+      {
+        "symbol": "PONS",
+        "score": 75,
+        "price": 0.270152
+      },
+      {
+        "symbol": "VELO",
+        "score": 75,
+        "price": 0.00442256
+      },
+      {
+        "symbol": "CCD",
+        "score": 75,
+        "price": 0.00426427
+      },
+      {
+        "symbol": "EGLD",
+        "score": 73,
+        "price": 3.65
+      },
+      {
+        "symbol": "DASH",
+        "score": 65,
+        "price": 41.34
+      },
+      {
+        "symbol": "PIEVERSE",
+        "score": 65,
+        "price": 1.082
+      },
+      {
+        "symbol": "TWT",
+        "score": 65,
+        "price": 0.478241
+      },
+      {
+        "symbol": "TRAC",
+        "score": 65,
+        "price": 0.351192
+      }
+    ]
   }
 ]

@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "BTW",
+    "coin_id": "bitway",
+    "score": 75,
+    "price": 0.454748
+  },
+  {
+    "symbol": "CARDS",
+    "coin_id": "collector-crypt",
+    "score": 75,
+    "price": 0.25205
+  },
+  {
+    "symbol": "PONS",
+    "coin_id": "pons",
+    "score": 75,
+    "price": 0.270152
+  },
+  {
+    "symbol": "VELO",
+    "coin_id": "velo",
+    "score": 75,
+    "price": 0.00442256
+  },
+  {
+    "symbol": "CCD",
+    "coin_id": "concordium",
+    "score": 75,
+    "price": 0.00426427
+  },
+  {
+    "symbol": "EGLD",
+    "coin_id": "elrond-erd-2",
+    "score": 73,
+    "price": 3.65
+  },
+  {
+    "symbol": "DASH",
+    "coin_id": "dash",
+    "score": 65,
+    "price": 41.34
+  },
+  {
+    "symbol": "PIEVERSE",
+    "coin_id": "pieverse",
+    "score": 65,
+    "price": 1.082
+  },
+  {
+    "symbol": "TWT",
+    "coin_id": "trust-wallet-token",
+    "score": 65,
+    "price": 0.478241
+  },
+  {
+    "symbol": "TRAC",
+    "coin_id": "origintrail",
+    "score": 65,
+    "price": 0.351192
+  }
+]
