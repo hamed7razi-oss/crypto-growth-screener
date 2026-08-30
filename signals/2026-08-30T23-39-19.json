@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "LIT",
+    "coin_id": "lighter",
+    "score": 85,
+    "price": 3.69
+  },
+  {
+    "symbol": "PONS",
+    "coin_id": "pons",
+    "score": 75,
+    "price": 0.368503
+  },
+  {
+    "symbol": "SKR",
+    "coin_id": "seeker",
+    "score": 75,
+    "price": 0.02354021
+  },
+  {
+    "symbol": "CASHCAT",
+    "coin_id": "cash-cat",
+    "score": 65,
+    "price": 0.226481
+  },
+  {
+    "symbol": "CYS",
+    "coin_id": "cysic",
+    "score": 65,
+    "price": 0.848333
+  },
+  {
+    "symbol": "LAB",
+    "coin_id": "lab",
+    "score": 65,
+    "price": 0.080072
+  },
+  {
+    "symbol": "MARSCOIN",
+    "coin_id": "marscoin-4",
+    "score": 65,
+    "price": 0.051745
+  },
+  {
+    "symbol": "DASH",
+    "coin_id": "dash",
+    "score": 58,
+    "price": 43.68
+  },
+  {
+    "symbol": "STRCX",
+    "coin_id": "strategy-pp-variable-xstock",
+    "score": 58,
+    "price": 106.19
+  },
+  {
+    "symbol": "OZO",
+    "coin_id": "ozone-chain",
+    "score": 58,
+    "price": 0.130978
+  }
+]
