@@ -2433,5 +2433,60 @@
         "price": 0.0094877
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-30T20:20:40.075710+00:00",
+    "coins": [
+      {
+        "symbol": "PLUME",
+        "score": 90,
+        "price": 0.01472169
+      },
+      {
+        "symbol": "LAB",
+        "score": 90,
+        "price": 0.083219
+      },
+      {
+        "symbol": "CAKE",
+        "score": 75,
+        "price": 1.87
+      },
+      {
+        "symbol": "PENDLE",
+        "score": 75,
+        "price": 1.81
+      },
+      {
+        "symbol": "牛来",
+        "score": 75,
+        "price": 0.132578
+      },
+      {
+        "symbol": "ANTFUN",
+        "score": 75,
+        "price": 0.054351
+      },
+      {
+        "symbol": "ORCA",
+        "score": 75,
+        "price": 1.34
+      },
+      {
+        "symbol": "SKY",
+        "score": 73,
+        "price": 0.07145
+      },
+      {
+        "symbol": "STRK",
+        "score": 65,
+        "price": 0.02661609
+      },
+      {
+        "symbol": "ZK",
+        "score": 65,
+        "price": 0.00937422
+      }
+    ]
   }
 ]
