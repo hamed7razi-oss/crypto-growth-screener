@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "PLUME",
+    "coin_id": "plume",
+    "score": 90,
+    "price": 0.01525283
+  },
+  {
+    "symbol": "LAB",
+    "coin_id": "lab",
+    "score": 90,
+    "price": 0.087076
+  },
+  {
+    "symbol": "牛来",
+    "coin_id": "niu-lai",
+    "score": 75,
+    "price": 0.131731
+  },
+  {
+    "symbol": "ANTFUN",
+    "coin_id": "antfun",
+    "score": 75,
+    "price": 0.054558
+  },
+  {
+    "symbol": "FORM",
+    "coin_id": "four",
+    "score": 75,
+    "price": 0.265003
+  },
+  {
+    "symbol": "UAI",
+    "coin_id": "unifai-network",
+    "score": 75,
+    "price": 0.381689
+  },
+  {
+    "symbol": "ORCA",
+    "coin_id": "orca",
+    "score": 75,
+    "price": 1.35
+  },
+  {
+    "symbol": "STRK",
+    "coin_id": "starknet",
+    "score": 65,
+    "price": 0.02620326
+  },
+  {
+    "symbol": "ZK",
+    "coin_id": "zksync",
+    "score": 65,
+    "price": 0.00938152
+  },
+  {
+    "symbol": "W",
+    "coin_id": "wormhole",
+    "score": 65,
+    "price": 0.0094877
+  }
+]
