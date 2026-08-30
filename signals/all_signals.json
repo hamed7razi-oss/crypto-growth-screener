@@ -2323,5 +2323,60 @@
         "price": 0.351192
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-30T10:59:51.576125+00:00",
+    "coins": [
+      {
+        "symbol": "SKR",
+        "score": 90,
+        "price": 0.01367254
+      },
+      {
+        "symbol": "PONS",
+        "score": 75,
+        "price": 0.338212
+      },
+      {
+        "symbol": "EGLD",
+        "score": 75,
+        "price": 3.81
+      },
+      {
+        "symbol": "HNT",
+        "score": 75,
+        "price": 0.592392
+      },
+      {
+        "symbol": "FUN",
+        "score": 73,
+        "price": 0.00542208
+      },
+      {
+        "symbol": "CARDS",
+        "score": 65,
+        "price": 0.219736
+      },
+      {
+        "symbol": "CYS",
+        "score": 65,
+        "price": 0.805531
+      },
+      {
+        "symbol": "DAI",
+        "score": 65,
+        "price": 0.00265713
+      },
+      {
+        "symbol": "OHM",
+        "score": 58,
+        "price": 19.66
+      },
+      {
+        "symbol": "牛来",
+        "score": 50,
+        "price": 0.098284
+      }
+    ]
   }
 ]

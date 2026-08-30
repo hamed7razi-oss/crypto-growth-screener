@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "SKR",
+    "coin_id": "seeker",
+    "score": 90,
+    "price": 0.01367254
+  },
+  {
+    "symbol": "PONS",
+    "coin_id": "pons",
+    "score": 75,
+    "price": 0.338212
+  },
+  {
+    "symbol": "EGLD",
+    "coin_id": "elrond-erd-2",
+    "score": 75,
+    "price": 3.81
+  },
+  {
+    "symbol": "HNT",
+    "coin_id": "helium",
+    "score": 75,
+    "price": 0.592392
+  },
+  {
+    "symbol": "FUN",
+    "coin_id": "funfair",
+    "score": 73,
+    "price": 0.00542208
+  },
+  {
+    "symbol": "CARDS",
+    "coin_id": "collector-crypt",
+    "score": 65,
+    "price": 0.219736
+  },
+  {
+    "symbol": "CYS",
+    "coin_id": "cysic",
+    "score": 65,
+    "price": 0.805531
+  },
+  {
+    "symbol": "DAI",
+    "coin_id": "dai-on-pulsechain",
+    "score": 65,
+    "price": 0.00265713
+  },
+  {
+    "symbol": "OHM",
+    "coin_id": "olympus",
+    "score": 58,
+    "price": 19.66
+  },
+  {
+    "symbol": "牛来",
+    "coin_id": "niu-lai",
+    "score": 50,
+    "price": 0.098284
+  }
+]
