@@ -2653,5 +2653,60 @@
         "price": 0.056961
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-31T19:52:29.072981+00:00",
+    "coins": [
+      {
+        "symbol": "PRL",
+        "score": 100,
+        "price": 0.29951
+      },
+      {
+        "symbol": "FLR",
+        "score": 75,
+        "price": 0.00688263
+      },
+      {
+        "symbol": "JASMY",
+        "score": 75,
+        "price": 0.00480847
+      },
+      {
+        "symbol": "USELESS",
+        "score": 75,
+        "price": 0.086801
+      },
+      {
+        "symbol": "RAM",
+        "score": 75,
+        "price": 0.930623
+      },
+      {
+        "symbol": "TSLAX",
+        "score": 68,
+        "price": 367.29
+      },
+      {
+        "symbol": "SAFE",
+        "score": 65,
+        "price": 0.22273
+      },
+      {
+        "symbol": "BTSE",
+        "score": 65,
+        "price": 0.75504
+      },
+      {
+        "symbol": "0G",
+        "score": 65,
+        "price": 0.227857
+      },
+      {
+        "symbol": "BGBTC",
+        "score": 58,
+        "price": 79025
+      }
+    ]
   }
 ]

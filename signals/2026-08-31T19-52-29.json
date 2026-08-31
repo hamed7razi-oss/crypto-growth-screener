@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "PRL",
+    "coin_id": "pearl-2",
+    "score": 100,
+    "price": 0.29951
+  },
+  {
+    "symbol": "FLR",
+    "coin_id": "flare-networks",
+    "score": 75,
+    "price": 0.00688263
+  },
+  {
+    "symbol": "JASMY",
+    "coin_id": "jasmycoin",
+    "score": 75,
+    "price": 0.00480847
+  },
+  {
+    "symbol": "USELESS",
+    "coin_id": "useless-3",
+    "score": 75,
+    "price": 0.086801
+  },
+  {
+    "symbol": "RAM",
+    "coin_id": "ramses",
+    "score": 75,
+    "price": 0.930623
+  },
+  {
+    "symbol": "TSLAX",
+    "coin_id": "tesla-xstock",
+    "score": 68,
+    "price": 367.29
+  },
+  {
+    "symbol": "SAFE",
+    "coin_id": "safecoin",
+    "score": 65,
+    "price": 0.22273
+  },
+  {
+    "symbol": "BTSE",
+    "coin_id": "btse-token",
+    "score": 65,
+    "price": 0.75504
+  },
+  {
+    "symbol": "0G",
+    "coin_id": "zero-gravity",
+    "score": 65,
+    "price": 0.227857
+  },
+  {
+    "symbol": "BGBTC",
+    "coin_id": "bitget-wrapped-btc",
+    "score": 58,
+    "price": 79025
+  }
+]
