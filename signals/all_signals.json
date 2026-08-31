@@ -2598,5 +2598,60 @@
         "price": 0.02982494
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-31T11:41:17.731406+00:00",
+    "coins": [
+      {
+        "symbol": "COW",
+        "score": 83,
+        "price": 0.123385
+      },
+      {
+        "symbol": "CYS",
+        "score": 75,
+        "price": 1.023
+      },
+      {
+        "symbol": "Q",
+        "score": 75,
+        "price": 0.02406793
+      },
+      {
+        "symbol": "UAI",
+        "score": 75,
+        "price": 0.403195
+      },
+      {
+        "symbol": "NOT",
+        "score": 65,
+        "price": 0.00044701
+      },
+      {
+        "symbol": "CRV",
+        "score": 58,
+        "price": 0.310136
+      },
+      {
+        "symbol": "YLDS",
+        "score": 58,
+        "price": 1.0
+      },
+      {
+        "symbol": "AWE",
+        "score": 58,
+        "price": 0.063414
+      },
+      {
+        "symbol": "UP",
+        "score": 58,
+        "price": 0.509149
+      },
+      {
+        "symbol": "ANTFUN",
+        "score": 58,
+        "price": 0.056961
+      }
+    ]
   }
 ]

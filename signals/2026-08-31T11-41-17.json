@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "COW",
+    "coin_id": "cow-protocol",
+    "score": 83,
+    "price": 0.123385
+  },
+  {
+    "symbol": "CYS",
+    "coin_id": "cysic",
+    "score": 75,
+    "price": 1.023
+  },
+  {
+    "symbol": "Q",
+    "coin_id": "quack-ai",
+    "score": 75,
+    "price": 0.02406793
+  },
+  {
+    "symbol": "UAI",
+    "coin_id": "unifai-network",
+    "score": 75,
+    "price": 0.403195
+  },
+  {
+    "symbol": "NOT",
+    "coin_id": "notcoin",
+    "score": 65,
+    "price": 0.00044701
+  },
+  {
+    "symbol": "CRV",
+    "coin_id": "curve-dao-token",
+    "score": 58,
+    "price": 0.310136
+  },
+  {
+    "symbol": "YLDS",
+    "coin_id": "ylds",
+    "score": 58,
+    "price": 1.0
+  },
+  {
+    "symbol": "AWE",
+    "coin_id": "stp-network",
+    "score": 58,
+    "price": 0.063414
+  },
+  {
+    "symbol": "UP",
+    "coin_id": "unitas",
+    "score": 58,
+    "price": 0.509149
+  },
+  {
+    "symbol": "ANTFUN",
+    "coin_id": "antfun",
+    "score": 58,
+    "price": 0.056961
+  }
+]
