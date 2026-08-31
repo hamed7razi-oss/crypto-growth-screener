@@ -2543,5 +2543,60 @@
         "price": 0.130978
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-31T03:47:16.470946+00:00",
+    "coins": [
+      {
+        "symbol": "XPR",
+        "score": 100,
+        "price": 0.00303095
+      },
+      {
+        "symbol": "METAL",
+        "score": 100,
+        "price": 0.134925
+      },
+      {
+        "symbol": "SKR",
+        "score": 75,
+        "price": 0.03272179
+      },
+      {
+        "symbol": "ASSET",
+        "score": 75,
+        "price": 0.260594
+      },
+      {
+        "symbol": "USELESS",
+        "score": 65,
+        "price": 0.06716
+      },
+      {
+        "symbol": "USAT",
+        "score": 58,
+        "price": 0.999268
+      },
+      {
+        "symbol": "CASH",
+        "score": 58,
+        "price": 0.999694
+      },
+      {
+        "symbol": "UUSD",
+        "score": 58,
+        "price": 0.997345
+      },
+      {
+        "symbol": "ADI",
+        "score": 58,
+        "price": 6.94
+      },
+      {
+        "symbol": "CX",
+        "score": 55,
+        "price": 0.02982494
+      }
+    ]
   }
 ]

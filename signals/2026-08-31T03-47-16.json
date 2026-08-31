@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "XPR",
+    "coin_id": "proton",
+    "score": 100,
+    "price": 0.00303095
+  },
+  {
+    "symbol": "METAL",
+    "coin_id": "metal-blockchain",
+    "score": 100,
+    "price": 0.134925
+  },
+  {
+    "symbol": "SKR",
+    "coin_id": "seeker",
+    "score": 75,
+    "price": 0.03272179
+  },
+  {
+    "symbol": "ASSET",
+    "coin_id": "asset",
+    "score": 75,
+    "price": 0.260594
+  },
+  {
+    "symbol": "USELESS",
+    "coin_id": "useless-3",
+    "score": 65,
+    "price": 0.06716
+  },
+  {
+    "symbol": "USAT",
+    "coin_id": "usa",
+    "score": 58,
+    "price": 0.999268
+  },
+  {
+    "symbol": "CASH",
+    "coin_id": "cash-4",
+    "score": 58,
+    "price": 0.999694
+  },
+  {
+    "symbol": "UUSD",
+    "coin_id": "unity-usd",
+    "score": 58,
+    "price": 0.997345
+  },
+  {
+    "symbol": "ADI",
+    "coin_id": "adi-token",
+    "score": 58,
+    "price": 6.94
+  },
+  {
+    "symbol": "CX",
+    "coin_id": "cortex-2",
+    "score": 55,
+    "price": 0.02982494
+  }
+]
