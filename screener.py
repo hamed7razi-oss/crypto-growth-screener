@@ -33,6 +33,13 @@ MIN_SCORE_TO_REPORT = 50       # حداقل امتیاز از 100 برای ای�
 REQUEST_DELAY = 1.5            # تاخیر بین درخواست‌ها به CoinGecko (جلوگیری از rate limit)
 MAX_RETRIES = 3                # تعداد تلاش مجدد در صورت خطای 429 (rate limit)
 
+# --- فیلترهای کیفیت جدید (بر اساس معیارهای اسکرینرهای حرفه‌ای مثل altFINS/Messari) ---
+MIN_VOLUME_TO_MCAP_RATIO = 0.02   # حداقل نسبت حجم24ساعته به مارکت‌کپ (نقدشوندگی کافی)
+MIN_PRICE_RANGE_PCT = 4.0         # حداقل دامنه نوسان قیمت در بازه بررسی (%)
+                                    # کوین‌هایی با نوسان کمتر از این معمولاً استیبل‌کوین یا
+                                    # سهام/اوراق توکنایزشده هستن (مثل MAG7.SSI, USDU, JAAA)
+                                    # نه کریپتوی رشدی واقعی، و باید حذف بشن
+
 COINGECKO_BASE = "https://api.coingecko.com/api/v3"
 
 # .strip() برای جلوگیری از خطای احتمالی به‌خاطر فاصله/خط اضافه هنگام کپی توکن در گیت‌هاب
@@ -68,7 +75,17 @@ def get_market_universe():
         if c.get("market_cap_rank")
         and MIN_MARKET_CAP_RANK <= c["market_cap_rank"] <= MAX_MARKET_CAP_RANK
     ]
-    return filtered
+
+    # --- فیلتر نقدشوندگی: حذف کوین‌هایی که حجم معاملاتشون نسبت به مارکت‌کپ خیلی کمه ---
+    # (نقدشوندگی پایین یعنی ریسک دستکاری قیمت و لغزش بالا موقع خرید/فروش واقعی)
+    liquid = []
+    for c in filtered:
+        market_cap = c.get("market_cap") or 0
+        volume = c.get("total_volume") or 0
+        if market_cap > 0 and (volume / market_cap) >= MIN_VOLUME_TO_MCAP_RATIO:
+            liquid.append(c)
+
+    return liquid
 
 
 # ---------------------------------------------------------------------------
@@ -173,57 +190,98 @@ def detect_breakout(df, lookback=20):
 
 
 # ---------------------------------------------------------------------------
+# ۳.۵) تشخیص دارایی‌های کم‌نوسان (سهام/اوراق توکنایزشده یا استیبل‌کوین)
+# ---------------------------------------------------------------------------
+def is_flat_asset(df):
+    """
+    اگه دامنه نوسان قیمت در کل بازه خیلی کم باشه (کمتر از MIN_PRICE_RANGE_PCT درصد)،
+    این دارایی احتمالاً یک استیبل‌کوین یا سهام/اوراق توکنایزشده (RWA) است،
+    نه یک کریپتوی رشدی واقعی. پلتفرم‌های حرفه‌ای این‌ها را جدا غربال می‌کنند.
+    """
+    lowest = df["low"].min()
+    highest = df["high"].max()
+    if lowest <= 0:
+        return True
+    price_range_pct = (highest - lowest) / lowest * 100
+    return price_range_pct < MIN_PRICE_RANGE_PCT
+
+
+def detect_relative_strength(coin_change_pct, btc_change_pct):
+    """
+    مقایسه بازدهی کوین با بیت‌کوین در همون بازه (Alpha).
+    این معیاریه که مارکت‌میکرها و صندوق‌های حرفه‌ای برای انتخاب آلت‌کوین استفاده می‌کنن:
+    صرف رشد مطلق قیمت مهم نیست، رشد بهتر از کل بازار (بیت‌کوین) مهمه.
+    """
+    if btc_change_pct is None:
+        return None
+    return coin_change_pct - btc_change_pct
+
+
+# ---------------------------------------------------------------------------
 # ۴) امتیازدهی ترکیبی (جمعاً از 100)
 # ---------------------------------------------------------------------------
-def score_coin(df):
+def score_coin(df, btc_change_pct=None):
     closes = df["close"]
 
     momentum = detect_momentum(df)
     breakout = detect_breakout(df)
     rsi = calculate_rsi(closes)
     macd = calculate_macd(closes)
+    alpha = detect_relative_strength(momentum["change_long_pct"], btc_change_pct)
 
     score = 0
     reasons = []
 
-    # --- مومنتوم قیمتی (35 امتیاز) ---
+    # --- مومنتوم قیمتی (25 امتیاز) ---
     if momentum["change_short_pct"] > 3 and momentum["change_long_pct"] > 5:
-        score += 35
+        score += 25
         reasons.append("مومنتوم صعودی پیوسته")
     elif momentum["change_short_pct"] > 0 and momentum["change_long_pct"] > 0:
-        score += 18
+        score += 13
         reasons.append("مومنتوم صعودی ضعیف")
 
-    # --- Breakout (25 امتیاز) ---
+    # --- Breakout (20 امتیاز) ---
     if breakout["is_breakout"]:
-        score += 25
+        score += 20
         reasons.append("شکست مقاومت اخیر")
 
-    # --- RSI (20 امتیاز) ---
+    # --- RSI (15 امتیاز) ---
     if rsi is not None:
         if 50 <= rsi <= 70:
-            score += 20
+            score += 15
             reasons.append(f"RSI در محدوده سالم صعودی ({rsi:.0f})")
         elif 40 <= rsi < 50:
-            score += 10
+            score += 8
             reasons.append(f"RSI در حال خروج از منطقه خنثی ({rsi:.0f})")
         elif rsi > 70:
-            score += 5
+            score += 4
             reasons.append(f"RSI اشباع خرید - احتیاط ({rsi:.0f})")
 
-    # --- MACD (20 امتیاز) ---
+    # --- MACD (15 امتیاز) ---
     if macd["bullish_cross"]:
-        score += 20
+        score += 15
         reasons.append("کراس صعودی MACD")
     elif macd["histogram"] > 0:
-        score += 10
+        score += 8
         reasons.append("هیستوگرام MACD مثبت")
+
+    # --- قدرت نسبی در برابر بیت‌کوین / Alpha (25 امتیاز) ---
+    # این بخش تازه‌ست: بر اساس تحقیق روی روش مارکت‌میکرهای حرفه‌ای (Wintermute, DWF, GSR)
+    # که آلت‌کوین رو نه با رشد مطلق، بلکه با عملکرد بهتر از بیت‌کوین انتخاب می‌کنن
+    if alpha is not None:
+        if alpha > 8:
+            score += 25
+            reasons.append(f"عملکرد قوی‌تر از بیت‌کوین (آلفا {alpha:+.1f}%)")
+        elif alpha > 2:
+            score += 13
+            reasons.append(f"عملکرد کمی بهتر از بیت‌کوین (آلفا {alpha:+.1f}%)")
 
     return {
         "score": round(score, 1),
         "rsi": round(rsi, 1) if rsi is not None else None,
         "macd_histogram": round(macd["histogram"], 5),
         "change_7candles_pct": round(momentum["change_long_pct"], 2),
+        "alpha_vs_btc": round(alpha, 2) if alpha is not None else None,
         "breakout": breakout["is_breakout"],
         "reasons": reasons,
     }
@@ -273,7 +331,16 @@ def save_signal_snapshot(results):
     os.makedirs("signals", exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%S")
     payload = [
-        {"symbol": r["symbol"], "coin_id": r["coin_id"], "score": r["score"], "price": r["price"]}
+        {
+            "symbol": r["symbol"],
+            "coin_id": r["coin_id"],
+            "name": r.get("name"),
+            "score": r["score"],
+            "price": r["price"],
+            "reasons": r.get("reasons", []),
+            "rsi": r.get("rsi"),
+            "alpha_vs_btc": r.get("alpha_vs_btc"),
+        }
         for r in results[:TOP_N_RESULTS]
     ]
     with open(f"signals/{ts}.json", "w", encoding="utf-8") as f:
@@ -300,44 +367,26 @@ def format_report(results):
 
 
 # ---------------------------------------------------------------------------
-# ۶.۵) ذخیره گزارش در signals/all_signals.json (برای خواندن خودکار توسط پروژه ردیاب)
-# ---------------------------------------------------------------------------
-def save_signal_record(results):
-    if not results:
-        return
-    signal = {
-        "timestamp": datetime.now(timezone.utc).isoformat(),
-        "coins": [
-            {"symbol": r["symbol"], "score": r["score"], "price": r["price"]}
-            for r in results[:TOP_N_RESULTS]
-        ],
-    }
-    os.makedirs("signals", exist_ok=True)
-    path = "signals/all_signals.json"
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-            except json.JSONDecodeError:
-                data = []
-    else:
-        data = []
-    data.append(signal)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-
-# ---------------------------------------------------------------------------
 # ۷) اجرای اصلی
 # ---------------------------------------------------------------------------
 def main():
     print("در حال دریافت لیست کوین‌های میان‌رده از CoinGecko...")
     universe = get_market_universe()
-    print(f"{len(universe)} کوین در محدوده رتبه {MIN_MARKET_CAP_RANK}-{MAX_MARKET_CAP_RANK} یافت شد.")
+    print(f"{len(universe)} کوین نقدشونده در محدوده رتبه {MIN_MARKET_CAP_RANK}-{MAX_MARKET_CAP_RANK} یافت شد.")
+
+    # داده بیت‌کوین رو یک‌بار می‌گیریم تا قدرت نسبی (Alpha) هر کوین رو باهاش بسنجیم
+    print("در حال دریافت داده مرجع بیت‌کوین برای محاسبه قدرت نسبی...")
+    btc_df = get_ohlc("bitcoin")
+    time.sleep(REQUEST_DELAY)
+    btc_change_pct = None
+    if btc_df is not None and len(btc_df) > 8:
+        btc_change_pct = (btc_df["close"].iloc[-1] / btc_df["close"].iloc[-8] - 1) * 100
+        print(f"تغییر بیت‌کوین در همین بازه: {btc_change_pct:+.2f}%")
 
     results = []
     checked = 0
     skipped = 0
+    rejected_flat = 0
 
     total = len(universe)
     for i, coin in enumerate(universe, 1):
@@ -354,9 +403,14 @@ def main():
             skipped += 1
             continue
 
+        # حذف دارایی‌های شبه‌ثابت (استیبل‌کوین یا سهام/اوراق توکنایزشده مثل MAG7.SSI, USDU, JAAA)
+        if is_flat_asset(df):
+            rejected_flat += 1
+            continue
+
         checked += 1
         try:
-            analysis = score_coin(df)
+            analysis = score_coin(df, btc_change_pct=btc_change_pct)
         except Exception as e:
             print(f"خطا در تحلیل {symbol}: {e}")
             continue
@@ -374,14 +428,14 @@ def main():
     results.sort(key=lambda x: x["score"], reverse=True)
 
     print(f"\nبررسی شد: {checked} کوین (داده کندل موجود بود)")
-    print(f"رد شد: {skipped} کوین (داده کندل کافی از CoinGecko دریافت نشد)")
+    print(f"رد شد (داده ناکافی): {skipped} کوین")
+    print(f"رد شد (دارایی شبه‌ثابت/غیرکریپتویی): {rejected_flat} کوین")
     print(f"واجد شرایط (امتیاز >= {MIN_SCORE_TO_REPORT}): {len(results)} کوین\n")
 
     report = format_report(results)
     print(report)
     send_telegram_message(report)
     save_signal_snapshot(results)
-    save_signal_record(results)
 
 
 if __name__ == "__main__":
