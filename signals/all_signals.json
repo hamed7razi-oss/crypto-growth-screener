@@ -2763,5 +2763,60 @@
         "price": 0.066936
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-01T04:03:45.135352+00:00",
+    "coins": [
+      {
+        "symbol": "PRL",
+        "score": 90,
+        "price": 0.299989
+      },
+      {
+        "symbol": "ARB",
+        "score": 75,
+        "price": 0.111943
+      },
+      {
+        "symbol": "CRV",
+        "score": 75,
+        "price": 0.352322
+      },
+      {
+        "symbol": "STABLE",
+        "score": 73,
+        "price": 0.02850988
+      },
+      {
+        "symbol": "GOMINING",
+        "score": 68,
+        "price": 0.34281
+      },
+      {
+        "symbol": "JST",
+        "score": 65,
+        "price": 0.099808
+      },
+      {
+        "symbol": "JASMY",
+        "score": 65,
+        "price": 0.00493955
+      },
+      {
+        "symbol": "TWT",
+        "score": 65,
+        "price": 0.515806
+      },
+      {
+        "symbol": "SAFE",
+        "score": 65,
+        "price": 0.223207
+      },
+      {
+        "symbol": "GOOSE",
+        "score": 65,
+        "price": 0.069455
+      }
+    ]
   }
 ]
