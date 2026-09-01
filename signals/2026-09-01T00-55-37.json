@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "HASH",
+    "coin_id": "hash-2",
+    "score": 100,
+    "price": 0.00842378
+  },
+  {
+    "symbol": "PRL",
+    "coin_id": "pearl-2",
+    "score": 90,
+    "price": 0.299818
+  },
+  {
+    "symbol": "ARB",
+    "coin_id": "arbitrum",
+    "score": 75,
+    "price": 0.107254
+  },
+  {
+    "symbol": "FLR",
+    "coin_id": "flare-networks",
+    "score": 75,
+    "price": 0.00707531
+  },
+  {
+    "symbol": "UP",
+    "coin_id": "unitas",
+    "score": 75,
+    "price": 0.52148
+  },
+  {
+    "symbol": "GOOSE",
+    "coin_id": "goose-token",
+    "score": 65,
+    "price": 0.071682
+  },
+  {
+    "symbol": "USTBL",
+    "coin_id": "spiko-us-t-bills-money-market-fund",
+    "score": 63,
+    "price": 1.095
+  },
+  {
+    "symbol": "RLB",
+    "coin_id": "rollbit-coin",
+    "score": 58,
+    "price": 0.082221
+  },
+  {
+    "symbol": "DOG",
+    "coin_id": "dog-go-to-the-moon-rune",
+    "score": 58,
+    "price": 0.00126298
+  },
+  {
+    "symbol": "MINA",
+    "coin_id": "mina-protocol",
+    "score": 58,
+    "price": 0.066936
+  }
+]

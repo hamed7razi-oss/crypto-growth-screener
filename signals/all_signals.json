@@ -2708,5 +2708,60 @@
         "price": 79025
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-01T00:55:37.394378+00:00",
+    "coins": [
+      {
+        "symbol": "HASH",
+        "score": 100,
+        "price": 0.00842378
+      },
+      {
+        "symbol": "PRL",
+        "score": 90,
+        "price": 0.299818
+      },
+      {
+        "symbol": "ARB",
+        "score": 75,
+        "price": 0.107254
+      },
+      {
+        "symbol": "FLR",
+        "score": 75,
+        "price": 0.00707531
+      },
+      {
+        "symbol": "UP",
+        "score": 75,
+        "price": 0.52148
+      },
+      {
+        "symbol": "GOOSE",
+        "score": 65,
+        "price": 0.071682
+      },
+      {
+        "symbol": "USTBL",
+        "score": 63,
+        "price": 1.095
+      },
+      {
+        "symbol": "RLB",
+        "score": 58,
+        "price": 0.082221
+      },
+      {
+        "symbol": "DOG",
+        "score": 58,
+        "price": 0.00126298
+      },
+      {
+        "symbol": "MINA",
+        "score": 58,
+        "price": 0.066936
+      }
+    ]
   }
 ]
