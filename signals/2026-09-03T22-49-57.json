@@ -1,0 +1,162 @@
+[
+  {
+    "symbol": "LIT",
+    "coin_id": "lighter",
+    "name": "Lighter",
+    "score": 93,
+    "price": 4.31,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (68)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.6%)"
+    ],
+    "rsi": 68.3,
+    "alpha_vs_btc": 9.65
+  },
+  {
+    "symbol": "NIGHT",
+    "coin_id": "midnight-3",
+    "name": "Midnight",
+    "score": 82,
+    "price": 0.02240937,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (85)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +17.5%)"
+    ],
+    "rsi": 85.0,
+    "alpha_vs_btc": 17.51
+  },
+  {
+    "symbol": "XPL",
+    "coin_id": "plasma",
+    "name": "Plasma",
+    "score": 82,
+    "price": 0.095892,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (78)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.9%)"
+    ],
+    "rsi": 78.1,
+    "alpha_vs_btc": 10.93
+  },
+  {
+    "symbol": "NPC",
+    "coin_id": "non-playable-coin",
+    "name": "Non-Playable Coin",
+    "score": 82,
+    "price": 0.0196552,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (78)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.8%)"
+    ],
+    "rsi": 78.4,
+    "alpha_vs_btc": 10.77
+  },
+  {
+    "symbol": "CRCLON",
+    "coin_id": "circle-internet-group-ondo-tokenized-stock",
+    "name": "Circle Internet Group (Ondo Tokenized Stock)",
+    "score": 82,
+    "price": 102.23,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (76)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.1%)"
+    ],
+    "rsi": 76.4,
+    "alpha_vs_btc": 11.13
+  },
+  {
+    "symbol": "CHIP",
+    "coin_id": "chip-2",
+    "name": "USD.AI",
+    "score": 82,
+    "price": 0.056162,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (80)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +34.0%)"
+    ],
+    "rsi": 80.5,
+    "alpha_vs_btc": 33.96
+  },
+  {
+    "symbol": "CRCLB",
+    "coin_id": "circle-internet-group-bstock",
+    "name": "Circle Internet Group (bStocks Tokenized Stock)",
+    "score": 82,
+    "price": 102.33,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (76)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.1%)"
+    ],
+    "rsi": 76.1,
+    "alpha_vs_btc": 11.15
+  },
+  {
+    "symbol": "CRCLX",
+    "coin_id": "circle-xstock",
+    "name": "Circle xStock",
+    "score": 82,
+    "price": 102.29,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (76)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.0%)"
+    ],
+    "rsi": 75.7,
+    "alpha_vs_btc": 11.03
+  },
+  {
+    "symbol": "MSTRX",
+    "coin_id": "microstrategy-xstock",
+    "name": "MicroStrategy xStock",
+    "score": 82,
+    "price": 143.79,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (75)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.6%)"
+    ],
+    "rsi": 75.3,
+    "alpha_vs_btc": 12.64
+  },
+  {
+    "symbol": "INDEX",
+    "coin_id": "the-index",
+    "name": "The Index",
+    "score": 82,
+    "price": 0.0679,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (80)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +59.6%)"
+    ],
+    "rsi": 80.0,
+    "alpha_vs_btc": 59.62
+  }
+]
