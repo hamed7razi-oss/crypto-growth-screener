@@ -1,0 +1,162 @@
+[
+  {
+    "symbol": "CRCLON",
+    "coin_id": "circle-internet-group-ondo-tokenized-stock",
+    "name": "Circle Internet Group (Ondo Tokenized Stock)",
+    "score": 100,
+    "price": 102.04,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (68)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.7%)"
+    ],
+    "rsi": 68.0,
+    "alpha_vs_btc": 10.69
+  },
+  {
+    "symbol": "CRCLB",
+    "coin_id": "circle-internet-group-bstock",
+    "name": "Circle Internet Group (bStocks Tokenized Stock)",
+    "score": 100,
+    "price": 102.12,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (68)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.5%)"
+    ],
+    "rsi": 67.9,
+    "alpha_vs_btc": 10.49
+  },
+  {
+    "symbol": "CRCLX",
+    "coin_id": "circle-xstock",
+    "name": "Circle xStock",
+    "score": 100,
+    "price": 101.98,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (68)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.3%)"
+    ],
+    "rsi": 68.0,
+    "alpha_vs_btc": 10.35
+  },
+  {
+    "symbol": "MSTRX",
+    "coin_id": "microstrategy-xstock",
+    "name": "MicroStrategy xStock",
+    "score": 100,
+    "price": 141.84,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (65)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
+    ],
+    "rsi": 64.8,
+    "alpha_vs_btc": 8.15
+  },
+  {
+    "symbol": "LIT",
+    "coin_id": "lighter",
+    "name": "Lighter",
+    "score": 93,
+    "price": 4.28,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (70)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.4%)"
+    ],
+    "rsi": 69.8,
+    "alpha_vs_btc": 10.42
+  },
+  {
+    "symbol": "PONS",
+    "coin_id": "pons",
+    "name": "Pons",
+    "score": 93,
+    "price": 0.592155,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (67)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +48.2%)"
+    ],
+    "rsi": 66.5,
+    "alpha_vs_btc": 48.25
+  },
+  {
+    "symbol": "BP",
+    "coin_id": "backpack",
+    "name": "Backpack",
+    "score": 93,
+    "price": 0.428011,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (61)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.8%)"
+    ],
+    "rsi": 61.4,
+    "alpha_vs_btc": 12.81
+  },
+  {
+    "symbol": "USELESS",
+    "coin_id": "useless-3",
+    "name": "Useless Coin",
+    "score": 82,
+    "price": 0.187163,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (86)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +72.7%)"
+    ],
+    "rsi": 85.6,
+    "alpha_vs_btc": 72.71
+  },
+  {
+    "symbol": "NPC",
+    "coin_id": "non-playable-coin",
+    "name": "Non-Playable Coin",
+    "score": 82,
+    "price": 0.01950417,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (76)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.9%)"
+    ],
+    "rsi": 76.2,
+    "alpha_vs_btc": 13.91
+  },
+  {
+    "symbol": "MARSCOIN",
+    "coin_id": "marscoin-4",
+    "name": "MarsCoin",
+    "score": 82,
+    "price": 0.100685,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (73)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +82.3%)"
+    ],
+    "rsi": 72.7,
+    "alpha_vs_btc": 82.32
+  }
+]
