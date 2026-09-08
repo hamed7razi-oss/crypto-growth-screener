@@ -1,0 +1,153 @@
+[
+  {
+    "symbol": "WLD",
+    "coin_id": "worldcoin-wld",
+    "name": "Worldcoin",
+    "score": 82,
+    "price": 0.486922,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (84)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +16.4%)"
+    ],
+    "rsi": 83.7,
+    "alpha_vs_btc": 16.41
+  },
+  {
+    "symbol": "B",
+    "coin_id": "build-on",
+    "name": "BUILDon",
+    "score": 73,
+    "price": 0.18862,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (65)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +20.5%)"
+    ],
+    "rsi": 64.9,
+    "alpha_vs_btc": 20.53
+  },
+  {
+    "symbol": "UAI",
+    "coin_id": "unifai-network",
+    "name": "UnifAI Network",
+    "score": 73,
+    "price": 0.720492,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (70)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +20.7%)"
+    ],
+    "rsi": 69.7,
+    "alpha_vs_btc": 20.7
+  },
+  {
+    "symbol": "BR",
+    "coin_id": "bedrock-token",
+    "name": "Bedrock",
+    "score": 73,
+    "price": 0.282193,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در حال خروج از منطقه خنثی (48)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +20.3%)"
+    ],
+    "rsi": 48.4,
+    "alpha_vs_btc": 20.31
+  },
+  {
+    "symbol": "DOT",
+    "coin_id": "polkadot",
+    "name": "Polkadot",
+    "score": 62,
+    "price": 1.054,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (77)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.1%)"
+    ],
+    "rsi": 77.0,
+    "alpha_vs_btc": 11.1
+  },
+  {
+    "symbol": "KAS",
+    "coin_id": "kaspa",
+    "name": "Kaspa",
+    "score": 62,
+    "price": 0.0366681,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (90)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +20.3%)"
+    ],
+    "rsi": 89.9,
+    "alpha_vs_btc": 20.32
+  },
+  {
+    "symbol": "INJ",
+    "coin_id": "injective-protocol",
+    "name": "Injective",
+    "score": 62,
+    "price": 6.54,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (94)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.6%)"
+    ],
+    "rsi": 94.4,
+    "alpha_vs_btc": 19.56
+  },
+  {
+    "symbol": "AERO",
+    "coin_id": "aerodrome-finance",
+    "name": "Aerodrome Finance",
+    "score": 62,
+    "price": 0.648121,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (75)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.8%)"
+    ],
+    "rsi": 74.8,
+    "alpha_vs_btc": 13.82
+  },
+  {
+    "symbol": "PIEVERSE",
+    "coin_id": "pieverse",
+    "name": "Pieverse",
+    "score": 62,
+    "price": 1.26,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (85)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +22.3%)"
+    ],
+    "rsi": 85.2,
+    "alpha_vs_btc": 22.32
+  },
+  {
+    "symbol": "AIOZ",
+    "coin_id": "aioz-network",
+    "name": "AIOZ Network",
+    "score": 62,
+    "price": 0.064574,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (80)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.1%)"
+    ],
+    "rsi": 80.5,
+    "alpha_vs_btc": 10.06
+  }
+]
