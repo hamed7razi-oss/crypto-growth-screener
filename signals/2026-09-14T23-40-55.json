@@ -1,0 +1,157 @@
+[
+  {
+    "symbol": "B",
+    "coin_id": "build-on",
+    "name": "BUILDon",
+    "score": 82,
+    "price": 0.234723,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (84)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.6%)"
+    ],
+    "rsi": 83.6,
+    "alpha_vs_btc": 10.65
+  },
+  {
+    "symbol": "SENT",
+    "coin_id": "sentient",
+    "name": "Sentient",
+    "score": 82,
+    "price": 0.01593331,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (78)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.8%)"
+    ],
+    "rsi": 77.5,
+    "alpha_vs_btc": 13.78
+  },
+  {
+    "symbol": "OP",
+    "coin_id": "optimism",
+    "name": "Optimism",
+    "score": 81,
+    "price": 0.102206,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (65)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.8%)"
+    ],
+    "rsi": 64.7,
+    "alpha_vs_btc": 4.8
+  },
+  {
+    "symbol": "NPC",
+    "coin_id": "non-playable-coin",
+    "name": "Non-Playable Coin",
+    "score": 73,
+    "price": 0.02296203,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (65)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.9%)"
+    ],
+    "rsi": 64.8,
+    "alpha_vs_btc": 9.94
+  },
+  {
+    "symbol": "ZCAT",
+    "coin_id": "anonymous-cat",
+    "name": "Anonymous Cat",
+    "score": 73,
+    "price": 0.123071,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (65)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +30.3%)"
+    ],
+    "rsi": 65.4,
+    "alpha_vs_btc": 30.26
+  },
+  {
+    "symbol": "CRCLON",
+    "coin_id": "circle-internet-group-ondo-tokenized-stock",
+    "name": "Circle Internet Group (Ondo Tokenized Stock)",
+    "score": 70,
+    "price": 95.69,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (77)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.8%)"
+    ],
+    "rsi": 77.1,
+    "alpha_vs_btc": 5.83
+  },
+  {
+    "symbol": "CRCLB",
+    "coin_id": "circle-internet-group-bstock",
+    "name": "Circle Internet Group (bStocks Tokenized Stock)",
+    "score": 70,
+    "price": 95.64,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (73)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.8%)"
+    ],
+    "rsi": 73.4,
+    "alpha_vs_btc": 5.82
+  },
+  {
+    "symbol": "CRCLX",
+    "coin_id": "circle-xstock",
+    "name": "Circle xStock",
+    "score": 70,
+    "price": 95.67,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (75)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.8%)"
+    ],
+    "rsi": 74.6,
+    "alpha_vs_btc": 5.78
+  },
+  {
+    "symbol": "PONS",
+    "coin_id": "pons",
+    "name": "Pons",
+    "score": 66,
+    "price": 0.645387,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در حال خروج از منطقه خنثی (48)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +16.0%)"
+    ],
+    "rsi": 48.2,
+    "alpha_vs_btc": 15.99
+  },
+  {
+    "symbol": "AI",
+    "coin_id": "artificial-inu-3",
+    "name": "Artificial Inu",
+    "score": 65,
+    "price": 0.307874,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (51)",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.3%)"
+    ],
+    "rsi": 51.0,
+    "alpha_vs_btc": 14.3
+  }
+]
