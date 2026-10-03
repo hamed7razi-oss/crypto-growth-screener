@@ -1,0 +1,154 @@
+[
+  {
+    "symbol": "SKY",
+    "coin_id": "sky",
+    "name": "Sky",
+    "score": 73,
+    "price": 0.086077,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (60)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
+    ],
+    "rsi": 59.8,
+    "alpha_vs_btc": 8.93
+  },
+  {
+    "symbol": "APE",
+    "coin_id": "apecoin",
+    "name": "ApeCoin",
+    "score": 73,
+    "price": 0.164438,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (62)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.7%)"
+    ],
+    "rsi": 62.1,
+    "alpha_vs_btc": 10.67
+  },
+  {
+    "symbol": "SPCXB",
+    "coin_id": "spacex-bstocks-tokenized-stock",
+    "name": "SpaceX (bStocks Tokenized Stock)",
+    "score": 70,
+    "price": 158.88,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (78)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.2%)"
+    ],
+    "rsi": 78.1,
+    "alpha_vs_btc": 5.23
+  },
+  {
+    "symbol": "JELLYJELLY",
+    "coin_id": "jelly-my-jelly",
+    "name": "Jelly-My-Jelly",
+    "score": 69,
+    "price": 0.058853,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.7%)"
+    ],
+    "rsi": 64.3,
+    "alpha_vs_btc": 2.73
+  },
+  {
+    "symbol": "NIGHT",
+    "coin_id": "midnight-3",
+    "name": "Midnight",
+    "score": 62,
+    "price": 0.04829015,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (72)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.4%)"
+    ],
+    "rsi": 71.7,
+    "alpha_vs_btc": 19.43
+  },
+  {
+    "symbol": "CARDS",
+    "coin_id": "collector-crypt",
+    "name": "Collector Crypt",
+    "score": 62,
+    "price": 0.258147,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (78)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +27.5%)"
+    ],
+    "rsi": 78.1,
+    "alpha_vs_btc": 27.48
+  },
+  {
+    "symbol": "MAGMA",
+    "coin_id": "magma-finance",
+    "name": "Magma Finance",
+    "score": 62,
+    "price": 0.358996,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (81)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +43.9%)"
+    ],
+    "rsi": 81.2,
+    "alpha_vs_btc": 43.89
+  },
+  {
+    "symbol": "SAND",
+    "coin_id": "the-sandbox",
+    "name": "The Sandbox",
+    "score": 61,
+    "price": 0.065803,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (68)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +40.4%)"
+    ],
+    "rsi": 68.1,
+    "alpha_vs_btc": 40.39
+  },
+  {
+    "symbol": "GALA",
+    "coin_id": "gala",
+    "name": "GALA",
+    "score": 61,
+    "price": 0.0026126,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (69)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.1%)"
+    ],
+    "rsi": 68.8,
+    "alpha_vs_btc": 12.1
+  },
+  {
+    "symbol": "PROS",
+    "coin_id": "pharos-network",
+    "name": "Pharos",
+    "score": 56,
+    "price": 0.750639,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (54)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +6.7%)"
+    ],
+    "rsi": 53.7,
+    "alpha_vs_btc": 6.73
+  }
+]
