@@ -1,0 +1,155 @@
+[
+  {
+    "symbol": "BAT",
+    "coin_id": "basic-attention-token",
+    "name": "Basic Attention",
+    "score": 93,
+    "price": 0.134151,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (69)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +18.8%)"
+    ],
+    "rsi": 69.1,
+    "alpha_vs_btc": 18.81
+  },
+  {
+    "symbol": "MERL",
+    "coin_id": "merlin-chain",
+    "name": "Merlin Chain",
+    "score": 93,
+    "price": 0.03139854,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (65)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.2%)"
+    ],
+    "rsi": 65.2,
+    "alpha_vs_btc": 12.23
+  },
+  {
+    "symbol": "DRV",
+    "coin_id": "derive",
+    "name": "Derive",
+    "score": 82,
+    "price": 0.519623,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (83)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +46.9%)"
+    ],
+    "rsi": 82.6,
+    "alpha_vs_btc": 46.88
+  },
+  {
+    "symbol": "BP",
+    "coin_id": "backpack",
+    "name": "Backpack",
+    "score": 73,
+    "price": 1.24,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (68)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.1%)"
+    ],
+    "rsi": 68.2,
+    "alpha_vs_btc": 19.15
+  },
+  {
+    "symbol": "ATOM",
+    "coin_id": "cosmos",
+    "name": "Cosmos Hub",
+    "score": 62,
+    "price": 2.0,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (72)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.6%)"
+    ],
+    "rsi": 72.3,
+    "alpha_vs_btc": 10.64
+  },
+  {
+    "symbol": "PYTH",
+    "coin_id": "pyth-network",
+    "name": "Pyth Network",
+    "score": 62,
+    "price": 0.081941,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (74)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.1%)"
+    ],
+    "rsi": 73.8,
+    "alpha_vs_btc": 11.11
+  },
+  {
+    "symbol": "STRK",
+    "coin_id": "starknet",
+    "name": "Starknet",
+    "score": 62,
+    "price": 0.075317,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (81)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +25.9%)"
+    ],
+    "rsi": 81.0,
+    "alpha_vs_btc": 25.93
+  },
+  {
+    "symbol": "Q",
+    "coin_id": "quack-ai",
+    "name": "Quack AI",
+    "score": 62,
+    "price": 0.02958887,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (79)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +22.1%)"
+    ],
+    "rsi": 78.6,
+    "alpha_vs_btc": 22.12
+  },
+  {
+    "symbol": "DOT",
+    "coin_id": "polkadot",
+    "name": "Polkadot",
+    "score": 61,
+    "price": 1.2,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (59)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.7%)"
+    ],
+    "rsi": 59.3,
+    "alpha_vs_btc": 7.71
+  },
+  {
+    "symbol": "CRCLB",
+    "coin_id": "circle-internet-group-bstock",
+    "name": "Circle Internet Group (bStocks Tokenized Stock)",
+    "score": 61,
+    "price": 86.19,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (66)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.2%)"
+    ],
+    "rsi": 65.5,
+    "alpha_vs_btc": 7.18
+  }
+]
