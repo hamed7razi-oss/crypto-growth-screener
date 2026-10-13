@@ -1,0 +1,63 @@
+[
+  {
+    "symbol": "Q",
+    "coin_id": "quack-ai",
+    "name": "Quack AI",
+    "score": 100,
+    "price": 0.03598196,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (63)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.4%)"
+    ],
+    "rsi": 63.3,
+    "alpha_vs_btc": 19.41
+  },
+  {
+    "symbol": "FLUID",
+    "coin_id": "instadapp",
+    "name": "Fluid",
+    "score": 63,
+    "price": 2.28,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "کراس صعودی MACD"
+    ],
+    "rsi": 63.6,
+    "alpha_vs_btc": 1.88
+  },
+  {
+    "symbol": "IVVON",
+    "coin_id": "ishares-core-s-p-500-etf-ondo-tokenized-etf",
+    "name": "iShares Core S&P 500 ETF (Ondo Tokenized ETF)",
+    "score": 61,
+    "price": 796.07,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (51)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +28.3%)"
+    ],
+    "rsi": 51.1,
+    "alpha_vs_btc": 28.26
+  },
+  {
+    "symbol": "WIN",
+    "coin_id": "wink",
+    "name": "WINkLink",
+    "score": 50,
+    "price": 5.883e-05,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (75)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.9%)"
+    ],
+    "rsi": 75.1,
+    "alpha_vs_btc": 5.89
+  }
+]
