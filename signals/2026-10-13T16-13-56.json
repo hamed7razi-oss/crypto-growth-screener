@@ -1,0 +1,33 @@
+[
+  {
+    "symbol": "TRAC",
+    "coin_id": "origintrail",
+    "name": "OriginTrail",
+    "score": 100,
+    "price": 0.411425,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (62)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.3%)"
+    ],
+    "rsi": 62.3,
+    "alpha_vs_btc": 8.26
+  },
+  {
+    "symbol": "BAT",
+    "coin_id": "basic-attention-token",
+    "name": "Basic Attention",
+    "score": 73,
+    "price": 0.182889,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (70)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.0%)"
+    ],
+    "rsi": 69.5,
+    "alpha_vs_btc": 11.95
+  }
+]
