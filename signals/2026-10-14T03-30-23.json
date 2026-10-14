@@ -1,0 +1,107 @@
+[
+  {
+    "symbol": "OP",
+    "coin_id": "optimism",
+    "name": "Optimism",
+    "score": 93,
+    "price": 0.159703,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +15.9%)"
+    ],
+    "rsi": 64.0,
+    "alpha_vs_btc": 15.86
+  },
+  {
+    "symbol": "BAT",
+    "coin_id": "basic-attention-token",
+    "name": "Basic Attention",
+    "score": 73,
+    "price": 0.187608,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (67)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +27.7%)"
+    ],
+    "rsi": 66.7,
+    "alpha_vs_btc": 27.7
+  },
+  {
+    "symbol": "ZCAT",
+    "coin_id": "anonymous-cat",
+    "name": "Anonymous Cat",
+    "score": 73,
+    "price": 0.054982,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (63)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +17.7%)"
+    ],
+    "rsi": 62.8,
+    "alpha_vs_btc": 17.67
+  },
+  {
+    "symbol": "AMP",
+    "coin_id": "amp-token",
+    "name": "Amp",
+    "score": 62,
+    "price": 0.00070982,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (78)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.5%)"
+    ],
+    "rsi": 78.0,
+    "alpha_vs_btc": 19.54
+  },
+  {
+    "symbol": "INJ",
+    "coin_id": "injective-protocol",
+    "name": "Injective",
+    "score": 61,
+    "price": 8.14,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (59)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.3%)"
+    ],
+    "rsi": 58.5,
+    "alpha_vs_btc": 5.34
+  },
+  {
+    "symbol": "AZTEC",
+    "coin_id": "aztec",
+    "name": "Aztec",
+    "score": 61,
+    "price": 0.02047504,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (66)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.6%)"
+    ],
+    "rsi": 65.5,
+    "alpha_vs_btc": 9.65
+  },
+  {
+    "symbol": "SN53",
+    "coin_id": "efficientfrontier",
+    "name": "EfficientFrontier",
+    "score": 53,
+    "price": 11.1,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (54)",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.6%)"
+    ],
+    "rsi": 54.4,
+    "alpha_vs_btc": 5.64
+  }
+]
