@@ -1,0 +1,157 @@
+[
+  {
+    "symbol": "CRCLX",
+    "coin_id": "circle-xstock",
+    "name": "Circle xStock",
+    "score": 100,
+    "price": 87.11,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (58)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.0%)"
+    ],
+    "rsi": 58.2,
+    "alpha_vs_btc": 11.0
+  },
+  {
+    "symbol": "ZCAT",
+    "coin_id": "anonymous-cat",
+    "name": "Anonymous Cat",
+    "score": 100,
+    "price": 0.059322,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (66)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +27.3%)"
+    ],
+    "rsi": 65.5,
+    "alpha_vs_btc": 27.27
+  },
+  {
+    "symbol": "PYTH",
+    "coin_id": "pyth-network",
+    "name": "Pyth Network",
+    "score": 93,
+    "price": 0.094553,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (63)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +18.6%)"
+    ],
+    "rsi": 63.4,
+    "alpha_vs_btc": 18.57
+  },
+  {
+    "symbol": "LCX",
+    "coin_id": "lcx",
+    "name": "LCX",
+    "score": 93,
+    "price": 0.063662,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (68)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +31.6%)"
+    ],
+    "rsi": 68.3,
+    "alpha_vs_btc": 31.58
+  },
+  {
+    "symbol": "NXPC",
+    "coin_id": "nexpace",
+    "name": "Nexpace",
+    "score": 89,
+    "price": 0.233847,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (72)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +19.1%)"
+    ],
+    "rsi": 72.5,
+    "alpha_vs_btc": 19.13
+  },
+  {
+    "symbol": "VVV",
+    "coin_id": "venice-token",
+    "name": "Venice Token",
+    "score": 80,
+    "price": 25.29,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (60)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.6%)"
+    ],
+    "rsi": 60.0,
+    "alpha_vs_btc": 8.64
+  },
+  {
+    "symbol": "CRCLB",
+    "coin_id": "circle-internet-group-bstock",
+    "name": "Circle Internet Group (bStocks Tokenized Stock)",
+    "score": 80,
+    "price": 87.22,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (55)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.5%)"
+    ],
+    "rsi": 55.3,
+    "alpha_vs_btc": 9.46
+  },
+  {
+    "symbol": "ZK",
+    "coin_id": "zksync",
+    "name": "ZKsync",
+    "score": 73,
+    "price": 0.0172449,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (68)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +14.6%)"
+    ],
+    "rsi": 67.5,
+    "alpha_vs_btc": 14.65
+  },
+  {
+    "symbol": "AI",
+    "coin_id": "artificial-inu-3",
+    "name": "Artificial Inu",
+    "score": 73,
+    "price": 0.110298,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (65)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.9%)"
+    ],
+    "rsi": 65.1,
+    "alpha_vs_btc": 10.86
+  },
+  {
+    "symbol": "LPT",
+    "coin_id": "livepeer",
+    "name": "Livepeer",
+    "score": 73,
+    "price": 1.79,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (61)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.4%)"
+    ],
+    "rsi": 60.8,
+    "alpha_vs_btc": 8.43
+  }
+]
