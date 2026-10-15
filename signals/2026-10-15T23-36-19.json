@@ -1,0 +1,158 @@
+[
+  {
+    "symbol": "CRCLB",
+    "coin_id": "circle-internet-group-bstock",
+    "name": "Circle Internet Group (bStocks Tokenized Stock)",
+    "score": 100,
+    "price": 86.04,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (58)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
+    ],
+    "rsi": 57.7,
+    "alpha_vs_btc": 8.9
+  },
+  {
+    "symbol": "ZCAT",
+    "coin_id": "anonymous-cat",
+    "name": "Anonymous Cat",
+    "score": 100,
+    "price": 0.061497,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (66)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +25.1%)"
+    ],
+    "rsi": 65.5,
+    "alpha_vs_btc": 25.13
+  },
+  {
+    "symbol": "XPL",
+    "coin_id": "plasma",
+    "name": "Plasma",
+    "score": 93,
+    "price": 0.085513,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (68)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.5%)"
+    ],
+    "rsi": 68.1,
+    "alpha_vs_btc": 10.55
+  },
+  {
+    "symbol": "CARDS",
+    "coin_id": "collector-crypt",
+    "name": "Collector Crypt",
+    "score": 93,
+    "price": 0.349569,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +31.0%)"
+    ],
+    "rsi": 64.5,
+    "alpha_vs_btc": 30.96
+  },
+  {
+    "symbol": "NXPC",
+    "coin_id": "nexpace",
+    "name": "Nexpace",
+    "score": 89,
+    "price": 0.224945,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (72)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +17.0%)"
+    ],
+    "rsi": 72.5,
+    "alpha_vs_btc": 16.99
+  },
+  {
+    "symbol": "ALEO",
+    "coin_id": "aleo",
+    "name": "ALEO",
+    "score": 82,
+    "price": 0.04780048,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (74)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
+    ],
+    "rsi": 73.6,
+    "alpha_vs_btc": 8.86
+  },
+  {
+    "symbol": "INJ",
+    "coin_id": "injective-protocol",
+    "name": "Injective",
+    "score": 80,
+    "price": 8.54,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (61)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.6%)"
+    ],
+    "rsi": 60.9,
+    "alpha_vs_btc": 9.57
+  },
+  {
+    "symbol": "CASHCAT",
+    "coin_id": "cash-cat",
+    "name": "Cash Cat",
+    "score": 80,
+    "price": 0.124659,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (63)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.6%)"
+    ],
+    "rsi": 63.0,
+    "alpha_vs_btc": 8.61
+  },
+  {
+    "symbol": "EDU",
+    "coin_id": "edu-coin",
+    "name": "Open Campus",
+    "score": 80,
+    "price": 0.07523,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (66)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.5%)"
+    ],
+    "rsi": 65.7,
+    "alpha_vs_btc": 9.53
+  },
+  {
+    "symbol": "PYTH",
+    "coin_id": "pyth-network",
+    "name": "Pyth Network",
+    "score": 73,
+    "price": 0.094814,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (64)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +17.3%)"
+    ],
+    "rsi": 63.7,
+    "alpha_vs_btc": 17.28
+  }
+]
