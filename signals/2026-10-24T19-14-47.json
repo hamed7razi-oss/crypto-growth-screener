@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "YELLOW",
+    "coin_id": "yellow",
+    "name": "Yellow",
+    "score": 73,
+    "price": 0.175412,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (62)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +22.6%)"
+    ],
+    "rsi": 62.1,
+    "alpha_vs_btc": 22.55
+  },
+  {
+    "symbol": "DOS",
+    "coin_id": "dappos",
+    "name": "DAPPOS",
+    "score": 61,
+    "price": 0.259106,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (67)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
+    ],
+    "rsi": 66.7,
+    "alpha_vs_btc": 8.86
+  },
+  {
+    "symbol": "ICNT",
+    "coin_id": "impossible-cloud-network-token",
+    "name": "Impossible Cloud Network Token",
+    "score": 61,
+    "price": 0.195233,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (55)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
+    ],
+    "rsi": 54.9,
+    "alpha_vs_btc": 8.11
+  }
+]
