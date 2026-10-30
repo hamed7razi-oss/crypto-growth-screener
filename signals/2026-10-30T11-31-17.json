@@ -1,0 +1,46 @@
+[
+  {
+    "symbol": "KNTQ",
+    "coin_id": "kinetiq",
+    "name": "Kinetiq",
+    "score": 82,
+    "price": 0.575599,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (71)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +30.4%)"
+    ],
+    "rsi": 71.2,
+    "alpha_vs_btc": 30.44
+  },
+  {
+    "symbol": "ICNT",
+    "coin_id": "impossible-cloud-network-token",
+    "name": "Impossible Cloud Network Token",
+    "score": 61,
+    "price": 0.191705,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (65)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.2%)"
+    ],
+    "rsi": 65.1,
+    "alpha_vs_btc": 10.16
+  },
+  {
+    "symbol": "CAP",
+    "coin_id": "cap-4",
+    "name": "Cap",
+    "score": 50,
+    "price": 0.080305,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +15.6%)"
+    ],
+    "rsi": 31.1,
+    "alpha_vs_btc": 15.59
+  }
+]
