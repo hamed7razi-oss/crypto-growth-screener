@@ -1,0 +1,122 @@
+[
+  {
+    "symbol": "SPCXB",
+    "coin_id": "spacex-bstocks-tokenized-stock",
+    "name": "SpaceX (bStocks Tokenized Stock)",
+    "score": 80,
+    "price": 135.12,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (51)",
+      "کراس صعودی MACD",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +10.8%)"
+    ],
+    "rsi": 50.8,
+    "alpha_vs_btc": 10.82
+  },
+  {
+    "symbol": "RAY",
+    "coin_id": "raydium",
+    "name": "Raydium",
+    "score": 73,
+    "price": 1.79,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (66)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.9%)"
+    ],
+    "rsi": 65.9,
+    "alpha_vs_btc": 9.93
+  },
+  {
+    "symbol": "IDOL",
+    "coin_id": "meet48",
+    "name": "MEET48",
+    "score": 73,
+    "price": 0.0247955,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (55)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +16.1%)"
+    ],
+    "rsi": 54.7,
+    "alpha_vs_btc": 16.05
+  },
+  {
+    "symbol": "RENDER",
+    "coin_id": "render-token",
+    "name": "Render",
+    "score": 61,
+    "price": 1.58,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (56)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.6%)"
+    ],
+    "rsi": 55.6,
+    "alpha_vs_btc": 7.62
+  },
+  {
+    "symbol": "DASH",
+    "coin_id": "dash",
+    "name": "Dash",
+    "score": 61,
+    "price": 46.85,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (51)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.9%)"
+    ],
+    "rsi": 50.9,
+    "alpha_vs_btc": 7.87
+  },
+  {
+    "symbol": "SAFE",
+    "coin_id": "safe",
+    "name": "Safe",
+    "score": 61,
+    "price": 0.087364,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (53)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.8%)"
+    ],
+    "rsi": 53.1,
+    "alpha_vs_btc": 8.81
+  },
+  {
+    "symbol": "ETHFI",
+    "coin_id": "ether-fi",
+    "name": "Ether.fi",
+    "score": 54,
+    "price": 0.581643,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در حال خروج از منطقه خنثی (47)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.1%)"
+    ],
+    "rsi": 47.2,
+    "alpha_vs_btc": 11.09
+  },
+  {
+    "symbol": "SPCXX",
+    "coin_id": "spacex-xstocks",
+    "name": "SpaceX xStock",
+    "score": 54,
+    "price": 135.18,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در حال خروج از منطقه خنثی (48)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.1%)"
+    ],
+    "rsi": 48.2,
+    "alpha_vs_btc": 7.13
+  }
+]
