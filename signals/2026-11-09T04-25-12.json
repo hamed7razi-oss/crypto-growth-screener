@@ -1,0 +1,80 @@
+[
+  {
+    "symbol": "RITUAL",
+    "coin_id": "ritual",
+    "name": "Ritual",
+    "score": 82,
+    "price": 0.04581501,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (84)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +93.7%)"
+    ],
+    "rsi": 83.7,
+    "alpha_vs_btc": 93.66
+  },
+  {
+    "symbol": "APEPE",
+    "coin_id": "ape-and-pepe",
+    "name": "Ape and Pepe",
+    "score": 70,
+    "price": 1.27e-06,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (90)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +7.3%)"
+    ],
+    "rsi": 90.0,
+    "alpha_vs_btc": 7.29
+  },
+  {
+    "symbol": "SPCXX",
+    "coin_id": "spacex-xstocks",
+    "name": "SpaceX xStock",
+    "score": 69,
+    "price": 137.9,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "شکست مقاومت اخیر",
+      "RSI در محدوده سالم صعودی (68)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +3.2%)"
+    ],
+    "rsi": 68.3,
+    "alpha_vs_btc": 3.24
+  },
+  {
+    "symbol": "GOOGLB",
+    "coin_id": "alphabet-bstocks-tokenized-stock",
+    "name": "Alphabet (bStocks Tokenized Stock)",
+    "score": 56,
+    "price": 288.71,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (60)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.8%)"
+    ],
+    "rsi": 59.6,
+    "alpha_vs_btc": 2.8
+  },
+  {
+    "symbol": "GOOGLX",
+    "coin_id": "alphabet-xstock",
+    "name": "Alphabet xStock",
+    "score": 56,
+    "price": 289.44,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (59)",
+      "کراس صعودی MACD",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +2.8%)"
+    ],
+    "rsi": 58.8,
+    "alpha_vs_btc": 2.83
+  }
+]
