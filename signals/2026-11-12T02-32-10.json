@@ -1,0 +1,77 @@
+[
+  {
+    "symbol": "Q",
+    "coin_id": "quack-ai",
+    "name": "Quack AI",
+    "score": 73,
+    "price": 0.02799341,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (53)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.9%)"
+    ],
+    "rsi": 53.2,
+    "alpha_vs_btc": 8.88
+  },
+  {
+    "symbol": "SNDKB",
+    "coin_id": "sandisk-bstocks-tokenized-stock",
+    "name": "SanDisk (bStocks Tokenized Stock)",
+    "score": 61,
+    "price": 954.53,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (60)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +11.3%)"
+    ],
+    "rsi": 60.4,
+    "alpha_vs_btc": 11.29
+  },
+  {
+    "symbol": "NPC",
+    "coin_id": "non-playable-coin",
+    "name": "Non-Playable Coin",
+    "score": 54,
+    "price": 0.01374195,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در حال خروج از منطقه خنثی (46)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.6%)"
+    ],
+    "rsi": 46.4,
+    "alpha_vs_btc": 9.63
+  },
+  {
+    "symbol": "NXPC",
+    "coin_id": "nexpace",
+    "name": "Nexpace",
+    "score": 54,
+    "price": 0.152906,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در حال خروج از منطقه خنثی (46)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +5.7%)"
+    ],
+    "rsi": 45.6,
+    "alpha_vs_btc": 5.69
+  },
+  {
+    "symbol": "O",
+    "coin_id": "o1-exchange",
+    "name": "o1.exchange",
+    "score": 50,
+    "price": 0.484492,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI اشباع خرید - احتیاط (80)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد کمی بهتر از بیت‌کوین (آلفا +4.5%)"
+    ],
+    "rsi": 79.8,
+    "alpha_vs_btc": 4.53
+  }
+]
