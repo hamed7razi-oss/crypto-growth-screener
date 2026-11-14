@@ -1,0 +1,92 @@
+[
+  {
+    "symbol": "INJ",
+    "coin_id": "injective-protocol",
+    "name": "Injective",
+    "score": 73,
+    "price": 8.08,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (53)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +13.3%)"
+    ],
+    "rsi": 52.6,
+    "alpha_vs_btc": 13.32
+  },
+  {
+    "symbol": "FF",
+    "coin_id": "falcon-finance-ff",
+    "name": "Falcon Finance",
+    "score": 61,
+    "price": 0.089102,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (58)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.7%)"
+    ],
+    "rsi": 58.1,
+    "alpha_vs_btc": 9.73
+  },
+  {
+    "symbol": "SENT",
+    "coin_id": "sentient",
+    "name": "Sentient",
+    "score": 61,
+    "price": 0.01673987,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (53)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.4%)"
+    ],
+    "rsi": 52.7,
+    "alpha_vs_btc": 9.39
+  },
+  {
+    "symbol": "PLUME",
+    "coin_id": "plume",
+    "name": "Plume",
+    "score": 61,
+    "price": 0.01388845,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (58)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.0%)"
+    ],
+    "rsi": 58.1,
+    "alpha_vs_btc": 8.98
+  },
+  {
+    "symbol": "VANTA",
+    "coin_id": "proprietary-trading-network",
+    "name": "Vanta Network",
+    "score": 61,
+    "price": 8.0,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (53)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +9.4%)"
+    ],
+    "rsi": 52.7,
+    "alpha_vs_btc": 9.39
+  },
+  {
+    "symbol": "MERL",
+    "coin_id": "merlin-chain",
+    "name": "Merlin Chain",
+    "score": 61,
+    "price": 0.03064149,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI در محدوده سالم صعودی (54)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.6%)"
+    ],
+    "rsi": 53.8,
+    "alpha_vs_btc": 8.64
+  }
+]
