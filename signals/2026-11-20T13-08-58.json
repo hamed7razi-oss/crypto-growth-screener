@@ -1,0 +1,63 @@
+[
+  {
+    "symbol": "EVAA",
+    "coin_id": "evaa-protocol",
+    "name": "EVAA Protocol",
+    "score": 82,
+    "price": 5.85,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "شکست مقاومت اخیر",
+      "RSI اشباع خرید - احتیاط (86)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +42.0%)"
+    ],
+    "rsi": 86.5,
+    "alpha_vs_btc": 42.02
+  },
+  {
+    "symbol": "PROS",
+    "coin_id": "pharos-network",
+    "name": "Pharos",
+    "score": 73,
+    "price": 0.577074,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (58)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +8.1%)"
+    ],
+    "rsi": 57.9,
+    "alpha_vs_btc": 8.05
+  },
+  {
+    "symbol": "BARD",
+    "coin_id": "lombard-protocol",
+    "name": "Lombard",
+    "score": 73,
+    "price": 0.092797,
+    "reasons": [
+      "مومنتوم صعودی پیوسته",
+      "RSI در محدوده سالم صعودی (52)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +12.6%)"
+    ],
+    "rsi": 51.6,
+    "alpha_vs_btc": 12.61
+  },
+  {
+    "symbol": "ICNT",
+    "coin_id": "impossible-cloud-network-token",
+    "name": "Impossible Cloud Network Token",
+    "score": 50,
+    "price": 0.425844,
+    "reasons": [
+      "مومنتوم صعودی ضعیف",
+      "RSI اشباع خرید - احتیاط (84)",
+      "هیستوگرام MACD مثبت",
+      "عملکرد قوی‌تر از بیت‌کوین (آلفا +21.0%)"
+    ],
+    "rsi": 84.5,
+    "alpha_vs_btc": 20.98
+  }
+]
